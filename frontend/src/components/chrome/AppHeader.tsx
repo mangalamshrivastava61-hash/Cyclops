@@ -7,6 +7,7 @@ import { LogoMark, cx } from "@/components/ui/primitives";
 import { PAGES } from "@/lib/pages";
 import { useOracleStore } from "@/lib/store/oracle-store";
 import { world } from "@/lib/services/repository";
+import { UserProfileMenu } from "@/components/auth/UserProfileMenu";
 
 /** The only chrome: logo, the section name, and three quiet utilities. */
 export function AppHeader({ section }: { section: string }) {
@@ -45,6 +46,9 @@ export function AppHeader({ section }: { section: string }) {
           <button type="button" onClick={() => setOpen((v) => !v)} aria-expanded={open} aria-controls="oracle-index" className="py-1 hover:text-gold-deep">
             Index
           </button>
+          <Link href="/ml-forecast" aria-current={pathname.startsWith("/ml-forecast") ? "page" : undefined} className={cx("hidden py-1 sm:inline", pathname.startsWith("/ml-forecast") && "border-b border-ink font-semibold text-amber-900")}>
+            Forecast Studio
+          </Link>
           <Link href="/data" aria-current={pathname.startsWith("/data") ? "page" : undefined} className={cx("hidden py-1 sm:inline", pathname.startsWith("/data") && "border-b border-ink font-medium")}>
             Data
           </Link>
@@ -54,9 +58,7 @@ export function AppHeader({ section }: { section: string }) {
           <Link href="/ask" aria-current={onAsk ? "page" : undefined} className={cx("hidden items-center gap-2 py-1 sm:flex", onAsk && "border-b border-ink font-medium")}>
             Ask ORACLE <span className="font-mono text-[11px] text-muted">⌘K</span>
           </Link>
-          <span aria-label={`Signed in as ${world.planner}`} role="img" className="flex h-[30px] w-[30px] items-center justify-center rounded-full bg-ink text-[11px] font-medium text-ground">
-            {world.plannerInitials}
-          </span>
+          <UserProfileMenu />
         </nav>
       </header>
       {open && <IndexPanel onClose={() => setOpen(false)} current={pathname} />}

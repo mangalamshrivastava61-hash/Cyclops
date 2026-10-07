@@ -108,4 +108,38 @@ export const api = {
         stockout: boolean;
       }>;
     }>(`/api/ml-forecast/history?limit=${limit}${sku && sku !== "all" ? `&sku=${encodeURIComponent(sku)}` : ""}`),
+
+  // Auth & per-user CSV history
+  login: async (body: { email: string; password: string }) =>
+    fetchFromBackend<{ id: number; name: string; email: string; created_at: string }>("/api/auth/login", {
+      method: "POST",
+      body: JSON.stringify(body),
+    }),
+
+  register: async (body: { name: string; email: string; password: string }) =>
+    fetchFromBackend<{ id: number; name: string; email: string; created_at: string }>("/api/auth/register", {
+      method: "POST",
+      body: JSON.stringify(body),
+    }),
+
+  saveCsvHistory: async (body: { user_email: string; filename: string; rows: any[] }) =>
+    fetchFromBackend<{ id: number; filename: string; row_count: number; uploaded_at: string }>("/api/auth/csv-history", {
+      method: "POST",
+      body: JSON.stringify(body),
+    }),
+
+  listCsvHistory: async (userEmail: string) =>
+    fetchFromBackend<Array<{ id: number; filename: string; row_count: number; uploaded_at: string }>>(
+      `/api/auth/csv-history/${encodeURIComponent(userEmail)}`
+    ),
+
+  getCsvHistoryDetail: async (userEmail: string, entryId: number) =>
+    fetchFromBackend<{ id: number; filename: string; row_count: number; uploaded_at: string; rows: any[] }>(
+      `/api/auth/csv-history/${encodeURIComponent(userEmail)}/${entryId}`
+    ),
+
+  deleteCsvHistory: async (userEmail: string, entryId: number) =>
+    fetchFromBackend<void>(`/api/auth/csv-history/${encodeURIComponent(userEmail)}/${entryId}`, {
+      method: "DELETE",
+    }),
 };

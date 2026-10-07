@@ -116,6 +116,19 @@ async def upload_and_predict(
                 "products": unique_prods,
             }
 
+        elif filename_lower.endswith((".xlsx", ".xls")):
+            import io
+            df = pd.read_excel(io.BytesIO(content))
+            ml_manager.set_sales_df(df, filename=file.filename)
+            preds = ml_manager.predict_future(num_months=months)
+            unique_prods = list({p["product_name"] for p in preds})
+            return {
+                "horizon_months": months,
+                "data_source": file.filename,
+                "predictions": preds,
+                "products": unique_prods,
+            }
+
         elif filename_lower.endswith((".pkl", ".joblib")):
             ml_manager.load_custom_model(content, filename=file.filename)
             preds = ml_manager.predict_future(num_months=months)

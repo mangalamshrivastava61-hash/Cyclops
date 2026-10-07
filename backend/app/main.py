@@ -12,7 +12,7 @@ from fastapi.responses import JSONResponse
 from . import __version__
 from .config import Settings, get_settings
 from .db import Base, make_engine, make_sessionmaker
-from .routers import ask, catalog, decisions, ledger, meta, ml_forecast, simulation
+from .routers import ask, auth, catalog, decisions, ledger, meta, ml_forecast, simulation
 from .seed import loader
 from .services import forecast
 from .services.errors import Conflict, NotFound
@@ -58,7 +58,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     async def _conflict(_: Request, exc: Conflict) -> JSONResponse:
         return JSONResponse(status_code=409, content={"detail": str(exc)})
 
-    for module in (meta, decisions, ledger, simulation, catalog, ask, ml_forecast):
+    for module in (meta, decisions, ledger, simulation, catalog, ask, ml_forecast, auth):
         app.include_router(module.router)
     return app
 

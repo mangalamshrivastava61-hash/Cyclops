@@ -57,14 +57,23 @@ class MLModelManager:
 
         # Handle column naming variations
         rename_map = {}
-        if "units" in df.columns and "units_sold" not in df.columns:
-            rename_map["units"] = "units_sold"
-        if "sales" in df.columns and "units_sold" not in df.columns:
-            rename_map["sales"] = "units_sold"
-        if "product" in df.columns and "product_name" not in df.columns:
-            rename_map["product"] = "product_name"
-        if "sku" in df.columns and "product_id" not in df.columns:
-            rename_map["sku"] = "product_id"
+        for col in df.columns:
+            clow = col.lower().strip()
+            if clow in ["units", "sales", "quantity", "qty", "demand", "volume", "units_sold", "unit_sales", "qty_sold"]:
+                if "units_sold" not in rename_map.values():
+                    rename_map[col] = "units_sold"
+            elif clow in ["date", "order_date", "day", "period", "ds", "transaction_date", "sales_date", "time", "timestamp"]:
+                if "date" not in rename_map.values():
+                    rename_map[col] = "date"
+            elif clow in ["product", "product_name", "item", "item_name", "description", "title"]:
+                if "product_name" not in rename_map.values():
+                    rename_map[col] = "product_name"
+            elif clow in ["sku", "product_id", "item_id", "code", "barcode", "upc"]:
+                if "product_id" not in rename_map.values():
+                    rename_map[col] = "product_id"
+            elif clow in ["inventory", "stock", "stock_on_hand", "on_hand", "inventory_level", "current_stock", "qty_on_hand"]:
+                if "inventory" not in rename_map.values():
+                    rename_map[col] = "inventory"
 
         df.rename(columns=rename_map, inplace=True)
 
@@ -89,10 +98,17 @@ class MLModelManager:
         if "promotion" not in df.columns:
             df["promotion"] = 0
 
-        df["date"] = pd.to_datetime(df["date"])
+        if "date" in df.columns:
+            df["date"] = pd.to_datetime(df["date"], errors="coerce")
+            df = df.dropna(subset=["date"])
+        else:
+            # Generate sequential daily dates
+            end_date = pd.Timestamp.now().normalize()
+            df["date"] = [end_date - pd.Timedelta(days=len(df) - 1 - i) for i in range(len(df))]
+
         df["month"] = df["date"].dt.month
         df["year"] = df["date"].dt.year
-        df["units_sold"] = pd.to_numeric(df["units_sold"]).fillna(0)
+        df["units_sold"] = pd.to_numeric(df["units_sold"], errors="coerce").fillna(0)
 
         self.raw_df = df
         self.current_data_file = filename

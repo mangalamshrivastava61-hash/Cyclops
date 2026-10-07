@@ -13,6 +13,7 @@ export const PAGES = [
   { n: 11, name: "Data Studio", href: "/data" },
   { n: 12, name: "ML Demand Forecast", href: "/ml-forecast" },
   { n: 13, name: "History", href: "/history" },
+  { n: 14, name: "Profile & Account", href: "/profile" },
 ] as const;
 
 export type PageNumber = (typeof PAGES)[number]["n"];

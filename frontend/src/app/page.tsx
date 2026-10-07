@@ -2,10 +2,11 @@ import Link from "next/link";
 import { LandingHeader } from "@/components/landing/LandingHeader";
 import { OracleView } from "@/components/oracle-object/OracleView";
 import { PrimaryLink, Serif } from "@/components/ui/primitives";
+import { EnterOracleButton } from "@/components/landing/EnterOracleButton";
 import { api } from "@/lib/services/api";
 
 const STATES = [
-  { n: "01", name: "Forecast", href: "/control", caption: "The layers float apart: the range is open. The gold line is the order.", variant: "forecast" as const, label: "The object with its layers floating slightly apart", fallback: "/renders/objForecast.webp" },
+  { n: "01", name: "Forecast", href: "/ml-forecast", caption: "The layers float apart: the range is open. The gold line is the order.", variant: "forecast" as const, label: "The object with its layers floating slightly apart", fallback: "/renders/objForecast.webp" },
   { n: "02", name: "Stress", href: "/break-my-plan/18513", caption: "The layers shear and the decision line rises, from 127 to 165.", variant: "stress" as const, label: "The object with its layers sheared out of line and the gold line raised", fallback: "/renders/objStress.webp" },
   { n: "03", name: "Circuit", href: "/circuit", caption: "It becomes a selector, set to clear, review or bench.", variant: "circuit" as const, label: "The object as the selector of a machined instrument", fallback: "/renders/objCircuit.webp" },
   { n: "04", name: "Authority", href: "/authority/1842", caption: "Its height is how much ORACLE may do alone. Unearned levels are only drawn.", variant: "authority" as const, label: "The object as a stack of levels, two only drawn in outline", fallback: "/renders/objAuthority.webp" },
@@ -30,7 +31,7 @@ export default async function Landing() {
               ORACLE forecasts demand, recommends the order, tests it against the future, and shows exactly how much evidence stands behind it.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-8">
-              <PrimaryLink href="/control">Enter ORACLE</PrimaryLink>
+              <EnterOracleButton />
               <Link href="/time-machine?play=1" className="group inline-flex items-center gap-3 text-[15px] font-medium">
                 <svg width="36" height="36" viewBox="0 0 34 34" aria-hidden="true" className="transition-transform duration-300 group-hover:scale-105">
                   <circle cx="17" cy="17" r="16" fill="none" stroke="currentColor" strokeWidth="1.2" />

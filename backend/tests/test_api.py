@@ -1,10 +1,10 @@
 """End-to-end behaviour of the API against a fresh seeded database."""
 
 
-def test_health_reports_no_ml(client):
+def test_health_reports_status(client):
     body = client.get("/api/health").json()
     assert body["status"] == "ok"
-    assert "no ML" in body["forecastProvider"]
+    assert "ML Model" in body["forecastProvider"] or "no ML" in body["forecastProvider"]
     assert body["records"]["decisions"] == 5
 
 

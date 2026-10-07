@@ -2,12 +2,6 @@ import Link from "next/link";
 import { LogoMark } from "@/components/ui/primitives";
 
 const NAV = [
-  { label: "Platform", href: "/control" },
-  { label: "Data Studio", href: "/data" },
-  { label: "ML Forecast", href: "/ml-forecast" },
-  { label: "Intelligence", href: "/ask" },
-  { label: "Time Machine", href: "/time-machine" },
-  { label: "Evidence", href: "/evidence/18513" },
   { label: "About", href: "/about" },
 ];
 
