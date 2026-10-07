@@ -1,0 +1,130 @@
+[
+  {
+    "sku": "1842",
+    "earnedLevel": 2,
+    "realWorldStart": 1,
+    "history": [
+      {
+        "week": 1,
+        "level": 1
+      },
+      {
+        "week": 2,
+        "level": 1
+      },
+      {
+        "week": 3,
+        "level": 1
+      },
+      {
+        "week": 4,
+        "level": 1
+      },
+      {
+        "week": 5,
+        "level": 2,
+        "note": "Promoted"
+      },
+      {
+        "week": 6,
+        "level": 2
+      },
+      {
+        "week": 7,
+        "level": 2
+      },
+      {
+        "week": 8,
+        "level": 2
+      },
+      {
+        "week": 9,
+        "level": 2
+      },
+      {
+        "week": 10,
+        "level": 2
+      },
+      {
+        "week": 11,
+        "level": 3,
+        "note": "Limited autonomy"
+      },
+      {
+        "week": 12,
+        "level": 3
+      },
+      {
+        "week": 13,
+        "level": 3
+      },
+      {
+        "week": 14,
+        "level": 3
+      },
+      {
+        "week": 15,
+        "level": 3
+      },
+      {
+        "week": 16,
+        "level": 1,
+        "note": "Benched · in-stock gate"
+      },
+      {
+        "week": 17,
+        "level": 1
+      },
+      {
+        "week": 18,
+        "level": 1
+      },
+      {
+        "week": 19,
+        "level": 1
+      },
+      {
+        "week": 20,
+        "level": 1
+      },
+      {
+        "week": 21,
+        "level": 2,
+        "note": "Re-earned"
+      },
+      {
+        "week": 22,
+        "level": 2
+      },
+      {
+        "week": 23,
+        "level": 2
+      },
+      {
+        "week": 24,
+        "level": 3,
+        "note": "Limited autonomy"
+      },
+      {
+        "week": 25,
+        "level": 3
+      },
+      {
+        "week": 26,
+        "level": 2,
+        "note": "Observability partial"
+      }
+    ],
+    "earn": {
+      "headline": "Eight steady weeks of good evidence.",
+      "detail": "Next step, L3, needs hidden demand under 5%. It is 11% now.",
+      "requirement": "Hidden demand under 5% for 8 weeks",
+      "metric": 0.11,
+      "threshold": 0.05
+    },
+    "lose": {
+      "headline": "At once, when any warning trips.",
+      "detail": "It happened in week 16, when the in-stock gate tripped."
+    }
+  }
+]

@@ -1,0 +1,377 @@
+[
+  {
+    "id": "R-2291",
+    "sku": "1842",
+    "sealedAt": "2025-10-14T23:59:00",
+    "dataHash": "9F3C…A41E",
+    "seed": "0417",
+    "leakageRows": 0,
+    "known": [
+      {
+        "date": "2025-08-21",
+        "units": 17,
+        "soldOut": false
+      },
+      {
+        "date": "2025-08-22",
+        "units": 17,
+        "soldOut": false
+      },
+      {
+        "date": "2025-08-23",
+        "units": 16,
+        "soldOut": false
+      },
+      {
+        "date": "2025-08-24",
+        "units": 17,
+        "soldOut": false
+      },
+      {
+        "date": "2025-08-25",
+        "units": 20,
+        "soldOut": false
+      },
+      {
+        "date": "2025-08-26",
+        "units": 19,
+        "soldOut": false
+      },
+      {
+        "date": "2025-08-27",
+        "units": 14,
+        "soldOut": false
+      },
+      {
+        "date": "2025-08-28",
+        "units": 10,
+        "soldOut": false
+      },
+      {
+        "date": "2025-08-29",
+        "units": 11,
+        "soldOut": false
+      },
+      {
+        "date": "2025-08-30",
+        "units": 13,
+        "soldOut": false
+      },
+      {
+        "date": "2025-08-31",
+        "units": 12,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-01",
+        "units": 10,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-02",
+        "units": 13,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-03",
+        "units": 18,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-04",
+        "units": 21,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-05",
+        "units": 19,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-06",
+        "units": 17,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-07",
+        "units": 17,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-08",
+        "units": 18,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-09",
+        "units": 15,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-10",
+        "units": 10,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-11",
+        "units": 9,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-12",
+        "units": 12,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-13",
+        "units": 16,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-14",
+        "units": 16,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-15",
+        "units": 15,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-16",
+        "units": 18,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-17",
+        "units": 23,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-18",
+        "units": 22,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-19",
+        "units": 18,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-20",
+        "units": 14,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-21",
+        "units": 15,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-22",
+        "units": 16,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-23",
+        "units": 13,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-24",
+        "units": 10,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-25",
+        "units": 12,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-26",
+        "units": 18,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-27",
+        "units": 21,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-28",
+        "units": 20,
+        "soldOut": true
+      },
+      {
+        "date": "2025-09-29",
+        "units": 19,
+        "soldOut": false
+      },
+      {
+        "date": "2025-09-30",
+        "units": 21,
+        "soldOut": false
+      },
+      {
+        "date": "2025-10-01",
+        "units": 22,
+        "soldOut": false
+      },
+      {
+        "date": "2025-10-02",
+        "units": 19,
+        "soldOut": false
+      },
+      {
+        "date": "2025-10-03",
+        "units": 14,
+        "soldOut": false
+      },
+      {
+        "date": "2025-10-04",
+        "units": 12,
+        "soldOut": false
+      },
+      {
+        "date": "2025-10-05",
+        "units": 14,
+        "soldOut": false
+      },
+      {
+        "date": "2025-10-06",
+        "units": 16,
+        "soldOut": false
+      },
+      {
+        "date": "2025-10-07",
+        "units": 15,
+        "soldOut": true
+      },
+      {
+        "date": "2025-10-08",
+        "units": 15,
+        "soldOut": false
+      },
+      {
+        "date": "2025-10-09",
+        "units": 18,
+        "soldOut": false
+      },
+      {
+        "date": "2025-10-10",
+        "units": 24,
+        "soldOut": false
+      },
+      {
+        "date": "2025-10-11",
+        "units": 24,
+        "soldOut": false
+      },
+      {
+        "date": "2025-10-12",
+        "units": 21,
+        "soldOut": false
+      },
+      {
+        "date": "2025-10-13",
+        "units": 19,
+        "soldOut": false
+      },
+      {
+        "date": "2025-10-14",
+        "units": 20,
+        "soldOut": false
+      }
+    ],
+    "knew": {
+      "onHand": 64,
+      "onOrder": 30,
+      "sellOuts28": 2
+    },
+    "predicted": {
+      "p10": 151,
+      "p50": 192,
+      "p90": 238,
+      "horizonDays": 12
+    },
+    "decided": {
+      "order": 118,
+      "fallback": 90,
+      "approvedAt": "10:12"
+    },
+    "window": [
+      {
+        "date": "2025-10-15",
+        "units": 17,
+        "oracleOnHand": 47,
+        "fallbackOnHand": 47
+      },
+      {
+        "date": "2025-10-16",
+        "units": 19,
+        "oracleOnHand": 58,
+        "fallbackOnHand": 58
+      },
+      {
+        "date": "2025-10-17",
+        "units": 18,
+        "oracleOnHand": 40,
+        "fallbackOnHand": 40
+      },
+      {
+        "date": "2025-10-18",
+        "units": 16,
+        "oracleOnHand": 24,
+        "fallbackOnHand": 24
+      },
+      {
+        "date": "2025-10-19",
+        "units": 19,
+        "oracleOnHand": 123,
+        "fallbackOnHand": 95
+      },
+      {
+        "date": "2025-10-20",
+        "units": 18,
+        "oracleOnHand": 105,
+        "fallbackOnHand": 77
+      },
+      {
+        "date": "2025-10-21",
+        "units": 19,
+        "oracleOnHand": 86,
+        "fallbackOnHand": 58
+      },
+      {
+        "date": "2025-10-22",
+        "units": 15,
+        "oracleOnHand": 71,
+        "fallbackOnHand": 43
+      },
+      {
+        "date": "2025-10-23",
+        "units": 16,
+        "oracleOnHand": 55,
+        "fallbackOnHand": 27
+      },
+      {
+        "date": "2025-10-24",
+        "units": 14,
+        "oracleOnHand": 41,
+        "fallbackOnHand": 13
+      },
+      {
+        "date": "2025-10-25",
+        "units": 15,
+        "oracleOnHand": 26,
+        "fallbackOnHand": -2
+      },
+      {
+        "date": "2025-10-26",
+        "units": 15,
+        "oracleOnHand": 11,
+        "fallbackOnHand": -17
+      }
+    ]
+  }
+]

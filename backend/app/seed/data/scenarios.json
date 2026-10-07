@@ -1,0 +1,59 @@
+{
+  "initial": {
+    "demand": {
+      "on": false,
+      "value": 0.25
+    },
+    "leadTime": {
+      "on": true,
+      "value": 2
+    },
+    "cost": {
+      "on": false,
+      "value": 0.15
+    },
+    "penalty": {
+      "on": false,
+      "value": 2
+    },
+    "bias": {
+      "on": false,
+      "value": 0.1
+    },
+    "shock": {
+      "on": false,
+      "value": 40
+    },
+    "shortfall": {
+      "on": false,
+      "value": 0.2
+    }
+  },
+  "singles": [
+    {
+      "key": "demand",
+      "value": 0.25,
+      "label": "Demand +25%"
+    },
+    {
+      "key": "leadTime",
+      "value": 3,
+      "label": "Lead time +3 days"
+    },
+    {
+      "key": "cost",
+      "value": 0.15,
+      "label": "Cost +15%"
+    },
+    {
+      "key": "penalty",
+      "value": 2,
+      "label": "Stockout penalty ×2"
+    },
+    {
+      "key": "shortfall",
+      "value": 0.2,
+      "label": "Supplier ships 20% short"
+    }
+  ]
+}

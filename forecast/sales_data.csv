@@ -1,0 +1,571 @@
+date,product_id,product_name,category,units_sold,price,discount_pct,promotion
+2022-01-01,P001,Wireless Earbuds,Electronics,273,49.99,0.0,0
+2022-02-01,P001,Wireless Earbuds,Electronics,230,49.99,0.0,0
+2022-03-01,P001,Wireless Earbuds,Electronics,419,49.99,27.3,1
+2022-04-01,P001,Wireless Earbuds,Electronics,287,49.99,3.0,0
+2022-05-01,P001,Wireless Earbuds,Electronics,316,49.99,3.0,0
+2022-06-01,P001,Wireless Earbuds,Electronics,378,49.99,5.0,0
+2022-07-01,P001,Wireless Earbuds,Electronics,373,49.99,5.0,0
+2022-08-01,P001,Wireless Earbuds,Electronics,407,49.99,22.2,1
+2022-09-01,P001,Wireless Earbuds,Electronics,294,49.99,3.0,0
+2022-10-01,P001,Wireless Earbuds,Electronics,356,49.99,5.0,0
+2022-11-01,P001,Wireless Earbuds,Electronics,450,49.99,0.0,0
+2022-12-01,P001,Wireless Earbuds,Electronics,417,49.99,0.0,0
+2023-01-01,P001,Wireless Earbuds,Electronics,291,49.99,5.0,0
+2023-02-01,P001,Wireless Earbuds,Electronics,236,49.99,0.0,0
+2023-03-01,P001,Wireless Earbuds,Electronics,295,49.99,5.0,0
+2023-04-01,P001,Wireless Earbuds,Electronics,351,49.99,0.0,0
+2023-05-01,P001,Wireless Earbuds,Electronics,347,49.99,5.0,0
+2023-06-01,P001,Wireless Earbuds,Electronics,362,49.99,0.0,0
+2023-07-01,P001,Wireless Earbuds,Electronics,509,49.99,26.8,1
+2023-08-01,P001,Wireless Earbuds,Electronics,524,49.99,28.5,1
+2023-09-01,P001,Wireless Earbuds,Electronics,315,49.99,3.0,0
+2023-10-01,P001,Wireless Earbuds,Electronics,417,49.99,16.5,1
+2023-11-01,P001,Wireless Earbuds,Electronics,582,49.99,26.6,1
+2023-12-01,P001,Wireless Earbuds,Electronics,581,49.99,20.9,1
+2024-01-01,P001,Wireless Earbuds,Electronics,245,49.99,0.0,0
+2024-02-01,P001,Wireless Earbuds,Electronics,252,49.99,0.0,0
+2024-03-01,P001,Wireless Earbuds,Electronics,460,49.99,26.3,1
+2024-04-01,P001,Wireless Earbuds,Electronics,341,49.99,0.0,0
+2024-05-01,P001,Wireless Earbuds,Electronics,319,49.99,0.0,0
+2024-06-01,P001,Wireless Earbuds,Electronics,382,49.99,5.0,0
+2024-07-01,P001,Wireless Earbuds,Electronics,455,49.99,16.2,1
+2024-08-01,P001,Wireless Earbuds,Electronics,413,49.99,3.0,0
+2024-09-01,P001,Wireless Earbuds,Electronics,405,49.99,5.0,0
+2024-10-01,P001,Wireless Earbuds,Electronics,389,49.99,5.0,0
+2024-11-01,P001,Wireless Earbuds,Electronics,450,49.99,0.0,0
+2024-12-01,P001,Wireless Earbuds,Electronics,496,49.99,0.0,0
+2025-01-01,P001,Wireless Earbuds,Electronics,406,49.99,27.9,1
+2025-02-01,P001,Wireless Earbuds,Electronics,333,49.99,5.0,0
+2025-03-01,P001,Wireless Earbuds,Electronics,441,49.99,18.2,1
+2025-04-01,P001,Wireless Earbuds,Electronics,362,49.99,0.0,0
+2025-05-01,P001,Wireless Earbuds,Electronics,392,49.99,0.0,0
+2025-06-01,P001,Wireless Earbuds,Electronics,397,49.99,3.0,0
+2025-07-01,P001,Wireless Earbuds,Electronics,466,49.99,5.0,0
+2025-08-01,P001,Wireless Earbuds,Electronics,341,49.99,0.0,0
+2025-09-01,P001,Wireless Earbuds,Electronics,332,49.99,3.0,0
+2025-10-01,P001,Wireless Earbuds,Electronics,509,49.99,18.5,1
+2025-11-01,P001,Wireless Earbuds,Electronics,487,49.99,3.0,0
+2025-12-01,P001,Wireless Earbuds,Electronics,587,49.99,5.0,0
+2026-01-01,P001,Wireless Earbuds,Electronics,337,49.99,14.9,1
+2026-02-01,P001,Wireless Earbuds,Electronics,286,49.99,0.0,0
+2026-03-01,P001,Wireless Earbuds,Electronics,390,49.99,15.1,1
+2026-04-01,P001,Wireless Earbuds,Electronics,341,49.99,0.0,0
+2026-05-01,P001,Wireless Earbuds,Electronics,357,49.99,0.0,0
+2026-06-01,P001,Wireless Earbuds,Electronics,382,49.99,5.0,0
+2026-07-01,P001,Wireless Earbuds,Electronics,424,49.99,0.0,0
+2026-08-01,P001,Wireless Earbuds,Electronics,417,49.99,5.0,0
+2026-09-01,P001,Wireless Earbuds,Electronics,352,49.99,5.0,0
+2022-01-01,P002,Phone Case,Accessories,608,14.99,26.1,1
+2022-02-01,P002,Phone Case,Accessories,454,14.99,3.0,0
+2022-03-01,P002,Phone Case,Accessories,668,14.99,26.7,1
+2022-04-01,P002,Phone Case,Accessories,616,14.99,5.0,0
+2022-05-01,P002,Phone Case,Accessories,530,14.99,5.0,0
+2022-06-01,P002,Phone Case,Accessories,566,14.99,0.0,0
+2022-07-01,P002,Phone Case,Accessories,847,14.99,28.8,1
+2022-08-01,P002,Phone Case,Accessories,599,14.99,0.0,0
+2022-09-01,P002,Phone Case,Accessories,592,14.99,0.0,0
+2022-10-01,P002,Phone Case,Accessories,530,14.99,0.0,0
+2022-11-01,P002,Phone Case,Accessories,1031,14.99,29.6,1
+2022-12-01,P002,Phone Case,Accessories,1287,14.99,29.9,1
+2023-01-01,P002,Phone Case,Accessories,424,14.99,0.0,0
+2023-02-01,P002,Phone Case,Accessories,473,14.99,0.0,0
+2023-03-01,P002,Phone Case,Accessories,579,14.99,3.0,0
+2023-04-01,P002,Phone Case,Accessories,607,14.99,0.0,0
+2023-05-01,P002,Phone Case,Accessories,636,14.99,5.0,0
+2023-06-01,P002,Phone Case,Accessories,636,14.99,0.0,0
+2023-07-01,P002,Phone Case,Accessories,765,14.99,13.2,1
+2023-08-01,P002,Phone Case,Accessories,600,14.99,5.0,0
+2023-09-01,P002,Phone Case,Accessories,558,14.99,0.0,0
+2023-10-01,P002,Phone Case,Accessories,787,14.99,17.3,1
+2023-11-01,P002,Phone Case,Accessories,748,14.99,0.0,0
+2023-12-01,P002,Phone Case,Accessories,820,14.99,3.0,0
+2024-01-01,P002,Phone Case,Accessories,670,14.99,29.5,1
+2024-02-01,P002,Phone Case,Accessories,459,14.99,0.0,0
+2024-03-01,P002,Phone Case,Accessories,755,14.99,22.9,1
+2024-04-01,P002,Phone Case,Accessories,647,14.99,5.0,0
+2024-05-01,P002,Phone Case,Accessories,642,14.99,0.0,0
+2024-06-01,P002,Phone Case,Accessories,914,14.99,29.9,1
+2024-07-01,P002,Phone Case,Accessories,664,14.99,3.0,0
+2024-08-01,P002,Phone Case,Accessories,873,14.99,28.6,1
+2024-09-01,P002,Phone Case,Accessories,648,14.99,0.0,0
+2024-10-01,P002,Phone Case,Accessories,705,14.99,16.1,1
+2024-11-01,P002,Phone Case,Accessories,966,14.99,19.7,1
+2024-12-01,P002,Phone Case,Accessories,1337,14.99,26.9,1
+2025-01-01,P002,Phone Case,Accessories,625,14.99,14.2,1
+2025-02-01,P002,Phone Case,Accessories,460,14.99,0.0,0
+2025-03-01,P002,Phone Case,Accessories,719,14.99,27.0,1
+2025-04-01,P002,Phone Case,Accessories,607,14.99,5.0,0
+2025-05-01,P002,Phone Case,Accessories,682,14.99,0.0,0
+2025-06-01,P002,Phone Case,Accessories,582,14.99,0.0,0
+2025-07-01,P002,Phone Case,Accessories,758,14.99,5.0,0
+2025-08-01,P002,Phone Case,Accessories,737,14.99,3.0,0
+2025-09-01,P002,Phone Case,Accessories,660,14.99,5.0,0
+2025-10-01,P002,Phone Case,Accessories,637,14.99,3.0,0
+2025-11-01,P002,Phone Case,Accessories,1245,14.99,29.6,1
+2025-12-01,P002,Phone Case,Accessories,796,14.99,0.0,0
+2026-01-01,P002,Phone Case,Accessories,541,14.99,3.0,0
+2026-02-01,P002,Phone Case,Accessories,510,14.99,5.0,0
+2026-03-01,P002,Phone Case,Accessories,676,14.99,5.0,0
+2026-04-01,P002,Phone Case,Accessories,649,14.99,3.0,0
+2026-05-01,P002,Phone Case,Accessories,637,14.99,5.0,0
+2026-06-01,P002,Phone Case,Accessories,655,14.99,0.0,0
+2026-07-01,P002,Phone Case,Accessories,695,14.99,0.0,0
+2026-08-01,P002,Phone Case,Accessories,859,14.99,10.5,1
+2026-09-01,P002,Phone Case,Accessories,653,14.99,0.0,0
+2022-01-01,P003,Laptop Stand,Electronics,135,39.99,0.0,0
+2022-02-01,P003,Laptop Stand,Electronics,187,39.99,13.7,1
+2022-03-01,P003,Laptop Stand,Electronics,185,39.99,5.0,0
+2022-04-01,P003,Laptop Stand,Electronics,190,39.99,3.0,0
+2022-05-01,P003,Laptop Stand,Electronics,220,39.99,21.3,1
+2022-06-01,P003,Laptop Stand,Electronics,216,39.99,16.8,1
+2022-07-01,P003,Laptop Stand,Electronics,273,39.99,16.2,1
+2022-08-01,P003,Laptop Stand,Electronics,229,39.99,10.3,1
+2022-09-01,P003,Laptop Stand,Electronics,172,39.99,5.0,0
+2022-10-01,P003,Laptop Stand,Electronics,189,39.99,0.0,0
+2022-11-01,P003,Laptop Stand,Electronics,217,39.99,0.0,0
+2022-12-01,P003,Laptop Stand,Electronics,369,39.99,28.7,1
+2023-01-01,P003,Laptop Stand,Electronics,146,39.99,5.0,0
+2023-02-01,P003,Laptop Stand,Electronics,172,39.99,22.8,1
+2023-03-01,P003,Laptop Stand,Electronics,179,39.99,0.0,0
+2023-04-01,P003,Laptop Stand,Electronics,183,39.99,0.0,0
+2023-05-01,P003,Laptop Stand,Electronics,201,39.99,0.0,0
+2023-06-01,P003,Laptop Stand,Electronics,218,39.99,0.0,0
+2023-07-01,P003,Laptop Stand,Electronics,206,39.99,5.0,0
+2023-08-01,P003,Laptop Stand,Electronics,215,39.99,17.5,1
+2023-09-01,P003,Laptop Stand,Electronics,185,39.99,0.0,0
+2023-10-01,P003,Laptop Stand,Electronics,245,39.99,23.6,1
+2023-11-01,P003,Laptop Stand,Electronics,321,39.99,19.9,1
+2023-12-01,P003,Laptop Stand,Electronics,337,39.99,28.7,1
+2024-01-01,P003,Laptop Stand,Electronics,155,39.99,5.0,0
+2024-02-01,P003,Laptop Stand,Electronics,151,39.99,0.0,0
+2024-03-01,P003,Laptop Stand,Electronics,168,39.99,0.0,0
+2024-04-01,P003,Laptop Stand,Electronics,192,39.99,3.0,0
+2024-05-01,P003,Laptop Stand,Electronics,217,39.99,5.0,0
+2024-06-01,P003,Laptop Stand,Electronics,231,39.99,3.0,0
+2024-07-01,P003,Laptop Stand,Electronics,198,39.99,0.0,0
+2024-08-01,P003,Laptop Stand,Electronics,175,39.99,0.0,0
+2024-09-01,P003,Laptop Stand,Electronics,165,39.99,0.0,0
+2024-10-01,P003,Laptop Stand,Electronics,307,39.99,29.0,1
+2024-11-01,P003,Laptop Stand,Electronics,235,39.99,5.0,0
+2024-12-01,P003,Laptop Stand,Electronics,304,39.99,5.0,0
+2025-01-01,P003,Laptop Stand,Electronics,141,39.99,0.0,0
+2025-02-01,P003,Laptop Stand,Electronics,136,39.99,0.0,0
+2025-03-01,P003,Laptop Stand,Electronics,200,39.99,5.0,0
+2025-04-01,P003,Laptop Stand,Electronics,169,39.99,0.0,0
+2025-05-01,P003,Laptop Stand,Electronics,278,39.99,25.2,1
+2025-06-01,P003,Laptop Stand,Electronics,254,39.99,11.7,1
+2025-07-01,P003,Laptop Stand,Electronics,312,39.99,26.4,1
+2025-08-01,P003,Laptop Stand,Electronics,264,39.99,11.7,1
+2025-09-01,P003,Laptop Stand,Electronics,205,39.99,0.0,0
+2025-10-01,P003,Laptop Stand,Electronics,288,39.99,28.2,1
+2025-11-01,P003,Laptop Stand,Electronics,337,39.99,24.2,1
+2025-12-01,P003,Laptop Stand,Electronics,356,39.99,24.1,1
+2026-01-01,P003,Laptop Stand,Electronics,192,39.99,18.7,1
+2026-02-01,P003,Laptop Stand,Electronics,145,39.99,3.0,0
+2026-03-01,P003,Laptop Stand,Electronics,221,39.99,12.4,1
+2026-04-01,P003,Laptop Stand,Electronics,192,39.99,5.0,0
+2026-05-01,P003,Laptop Stand,Electronics,205,39.99,5.0,0
+2026-06-01,P003,Laptop Stand,Electronics,218,39.99,3.0,0
+2026-07-01,P003,Laptop Stand,Electronics,261,39.99,5.0,0
+2026-08-01,P003,Laptop Stand,Electronics,294,39.99,27.8,1
+2026-09-01,P003,Laptop Stand,Electronics,195,39.99,5.0,0
+2022-01-01,P004,Running Shoes,Footwear,241,89.99,13.3,1
+2022-02-01,P004,Running Shoes,Footwear,218,89.99,0.0,0
+2022-03-01,P004,Running Shoes,Footwear,270,89.99,0.0,0
+2022-04-01,P004,Running Shoes,Footwear,269,89.99,3.0,0
+2022-05-01,P004,Running Shoes,Footwear,255,89.99,0.0,0
+2022-06-01,P004,Running Shoes,Footwear,271,89.99,0.0,0
+2022-07-01,P004,Running Shoes,Footwear,359,89.99,5.0,0
+2022-08-01,P004,Running Shoes,Footwear,264,89.99,3.0,0
+2022-09-01,P004,Running Shoes,Footwear,308,89.99,5.0,0
+2022-10-01,P004,Running Shoes,Footwear,276,89.99,5.0,0
+2022-11-01,P004,Running Shoes,Footwear,496,89.99,28.8,1
+2022-12-01,P004,Running Shoes,Footwear,390,89.99,0.0,0
+2023-01-01,P004,Running Shoes,Footwear,231,89.99,0.0,0
+2023-02-01,P004,Running Shoes,Footwear,239,89.99,0.0,0
+2023-03-01,P004,Running Shoes,Footwear,252,89.99,0.0,0
+2023-04-01,P004,Running Shoes,Footwear,306,89.99,0.0,0
+2023-05-01,P004,Running Shoes,Footwear,280,89.99,5.0,0
+2023-06-01,P004,Running Shoes,Footwear,322,89.99,12.7,1
+2023-07-01,P004,Running Shoes,Footwear,433,89.99,23.8,1
+2023-08-01,P004,Running Shoes,Footwear,304,89.99,0.0,0
+2023-09-01,P004,Running Shoes,Footwear,321,89.99,5.0,0
+2023-10-01,P004,Running Shoes,Footwear,337,89.99,14.8,1
+2023-11-01,P004,Running Shoes,Footwear,427,89.99,15.5,1
+2023-12-01,P004,Running Shoes,Footwear,405,89.99,0.0,0
+2024-01-01,P004,Running Shoes,Footwear,327,89.99,23.4,1
+2024-02-01,P004,Running Shoes,Footwear,225,89.99,0.0,0
+2024-03-01,P004,Running Shoes,Footwear,298,89.99,5.0,0
+2024-04-01,P004,Running Shoes,Footwear,296,89.99,0.0,0
+2024-05-01,P004,Running Shoes,Footwear,339,89.99,5.0,0
+2024-06-01,P004,Running Shoes,Footwear,354,89.99,0.0,0
+2024-07-01,P004,Running Shoes,Footwear,321,89.99,0.0,0
+2024-08-01,P004,Running Shoes,Footwear,335,89.99,3.0,0
+2024-09-01,P004,Running Shoes,Footwear,409,89.99,24.5,1
+2024-10-01,P004,Running Shoes,Footwear,320,89.99,5.0,0
+2024-11-01,P004,Running Shoes,Footwear,435,89.99,0.0,0
+2024-12-01,P004,Running Shoes,Footwear,629,89.99,28.5,1
+2025-01-01,P004,Running Shoes,Footwear,364,89.99,19.2,1
+2025-02-01,P004,Running Shoes,Footwear,248,89.99,5.0,0
+2025-03-01,P004,Running Shoes,Footwear,258,89.99,0.0,0
+2025-04-01,P004,Running Shoes,Footwear,332,89.99,12.6,1
+2025-05-01,P004,Running Shoes,Footwear,399,89.99,22.8,1
+2025-06-01,P004,Running Shoes,Footwear,370,89.99,0.0,0
+2025-07-01,P004,Running Shoes,Footwear,359,89.99,0.0,0
+2025-08-01,P004,Running Shoes,Footwear,446,89.99,26.4,1
+2025-09-01,P004,Running Shoes,Footwear,292,89.99,3.0,0
+2025-10-01,P004,Running Shoes,Footwear,393,89.99,19.2,1
+2025-11-01,P004,Running Shoes,Footwear,560,89.99,20.1,1
+2025-12-01,P004,Running Shoes,Footwear,663,89.99,26.0,1
+2026-01-01,P004,Running Shoes,Footwear,413,89.99,27.5,1
+2026-02-01,P004,Running Shoes,Footwear,344,89.99,15.5,1
+2026-03-01,P004,Running Shoes,Footwear,361,89.99,5.0,0
+2026-04-01,P004,Running Shoes,Footwear,312,89.99,3.0,0
+2026-05-01,P004,Running Shoes,Footwear,349,89.99,3.0,0
+2026-06-01,P004,Running Shoes,Footwear,340,89.99,3.0,0
+2026-07-01,P004,Running Shoes,Footwear,538,89.99,23.7,1
+2026-08-01,P004,Running Shoes,Footwear,339,89.99,5.0,0
+2026-09-01,P004,Running Shoes,Footwear,317,89.99,0.0,0
+2022-01-01,P005,Yoga Mat,Fitness,152,29.99,5.0,0
+2022-02-01,P005,Yoga Mat,Fitness,157,29.99,3.0,0
+2022-03-01,P005,Yoga Mat,Fitness,262,29.99,27.8,1
+2022-04-01,P005,Yoga Mat,Fitness,198,29.99,0.0,0
+2022-05-01,P005,Yoga Mat,Fitness,219,29.99,5.0,0
+2022-06-01,P005,Yoga Mat,Fitness,216,29.99,0.0,0
+2022-07-01,P005,Yoga Mat,Fitness,228,29.99,5.0,0
+2022-08-01,P005,Yoga Mat,Fitness,195,29.99,0.0,0
+2022-09-01,P005,Yoga Mat,Fitness,208,29.99,3.0,0
+2022-10-01,P005,Yoga Mat,Fitness,221,29.99,12.0,1
+2022-11-01,P005,Yoga Mat,Fitness,284,29.99,13.2,1
+2022-12-01,P005,Yoga Mat,Fitness,379,29.99,13.5,1
+2023-01-01,P005,Yoga Mat,Fitness,211,29.99,20.5,1
+2023-02-01,P005,Yoga Mat,Fitness,164,29.99,3.0,0
+2023-03-01,P005,Yoga Mat,Fitness,176,29.99,5.0,0
+2023-04-01,P005,Yoga Mat,Fitness,190,29.99,3.0,0
+2023-05-01,P005,Yoga Mat,Fitness,219,29.99,0.0,0
+2023-06-01,P005,Yoga Mat,Fitness,207,29.99,0.0,0
+2023-07-01,P005,Yoga Mat,Fitness,262,29.99,3.0,0
+2023-08-01,P005,Yoga Mat,Fitness,230,29.99,5.0,0
+2023-09-01,P005,Yoga Mat,Fitness,204,29.99,0.0,0
+2023-10-01,P005,Yoga Mat,Fitness,255,29.99,21.6,1
+2023-11-01,P005,Yoga Mat,Fitness,269,29.99,0.0,0
+2023-12-01,P005,Yoga Mat,Fitness,385,29.99,19.1,1
+2024-01-01,P005,Yoga Mat,Fitness,162,29.99,0.0,0
+2024-02-01,P005,Yoga Mat,Fitness,151,29.99,0.0,0
+2024-03-01,P005,Yoga Mat,Fitness,225,29.99,12.3,1
+2024-04-01,P005,Yoga Mat,Fitness,195,29.99,0.0,0
+2024-05-01,P005,Yoga Mat,Fitness,236,29.99,3.0,0
+2024-06-01,P005,Yoga Mat,Fitness,255,29.99,5.0,0
+2024-07-01,P005,Yoga Mat,Fitness,242,29.99,5.0,0
+2024-08-01,P005,Yoga Mat,Fitness,204,29.99,3.0,0
+2024-09-01,P005,Yoga Mat,Fitness,219,29.99,0.0,0
+2024-10-01,P005,Yoga Mat,Fitness,238,29.99,13.3,1
+2024-11-01,P005,Yoga Mat,Fitness,279,29.99,0.0,0
+2024-12-01,P005,Yoga Mat,Fitness,331,29.99,0.0,0
+2025-01-01,P005,Yoga Mat,Fitness,239,29.99,26.3,1
+2025-02-01,P005,Yoga Mat,Fitness,175,29.99,0.0,0
+2025-03-01,P005,Yoga Mat,Fitness,184,29.99,0.0,0
+2025-04-01,P005,Yoga Mat,Fitness,210,29.99,0.0,0
+2025-05-01,P005,Yoga Mat,Fitness,222,29.99,0.0,0
+2025-06-01,P005,Yoga Mat,Fitness,238,29.99,0.0,0
+2025-07-01,P005,Yoga Mat,Fitness,274,29.99,5.0,0
+2025-08-01,P005,Yoga Mat,Fitness,256,29.99,5.0,0
+2025-09-01,P005,Yoga Mat,Fitness,207,29.99,5.0,0
+2025-10-01,P005,Yoga Mat,Fitness,288,29.99,15.0,1
+2025-11-01,P005,Yoga Mat,Fitness,390,29.99,21.4,1
+2025-12-01,P005,Yoga Mat,Fitness,282,29.99,0.0,0
+2026-01-01,P005,Yoga Mat,Fitness,190,29.99,5.0,0
+2026-02-01,P005,Yoga Mat,Fitness,189,29.99,5.0,0
+2026-03-01,P005,Yoga Mat,Fitness,228,29.99,5.0,0
+2026-04-01,P005,Yoga Mat,Fitness,223,29.99,0.0,0
+2026-05-01,P005,Yoga Mat,Fitness,231,29.99,0.0,0
+2026-06-01,P005,Yoga Mat,Fitness,272,29.99,3.0,0
+2026-07-01,P005,Yoga Mat,Fitness,270,29.99,0.0,0
+2026-08-01,P005,Yoga Mat,Fitness,307,29.99,21.7,1
+2026-09-01,P005,Yoga Mat,Fitness,237,29.99,5.0,0
+2022-01-01,P006,Water Bottle,Fitness,388,19.99,5.0,0
+2022-02-01,P006,Water Bottle,Fitness,341,19.99,0.0,0
+2022-03-01,P006,Water Bottle,Fitness,390,19.99,11.4,1
+2022-04-01,P006,Water Bottle,Fitness,604,19.99,26.8,1
+2022-05-01,P006,Water Bottle,Fitness,465,19.99,14.7,1
+2022-06-01,P006,Water Bottle,Fitness,418,19.99,0.0,0
+2022-07-01,P006,Water Bottle,Fitness,459,19.99,0.0,0
+2022-08-01,P006,Water Bottle,Fitness,476,19.99,11.1,1
+2022-09-01,P006,Water Bottle,Fitness,437,19.99,5.0,0
+2022-10-01,P006,Water Bottle,Fitness,580,19.99,18.3,1
+2022-11-01,P006,Water Bottle,Fitness,522,19.99,0.0,0
+2022-12-01,P006,Water Bottle,Fitness,523,19.99,0.0,0
+2023-01-01,P006,Water Bottle,Fitness,325,19.99,3.0,0
+2023-02-01,P006,Water Bottle,Fitness,306,19.99,3.0,0
+2023-03-01,P006,Water Bottle,Fitness,500,19.99,25.6,1
+2023-04-01,P006,Water Bottle,Fitness,419,19.99,0.0,0
+2023-05-01,P006,Water Bottle,Fitness,453,19.99,5.0,0
+2023-06-01,P006,Water Bottle,Fitness,422,19.99,3.0,0
+2023-07-01,P006,Water Bottle,Fitness,440,19.99,0.0,0
+2023-08-01,P006,Water Bottle,Fitness,545,19.99,17.9,1
+2023-09-01,P006,Water Bottle,Fitness,396,19.99,3.0,0
+2023-10-01,P006,Water Bottle,Fitness,497,19.99,10.7,1
+2023-11-01,P006,Water Bottle,Fitness,513,19.99,0.0,0
+2023-12-01,P006,Water Bottle,Fitness,609,19.99,0.0,0
+2024-01-01,P006,Water Bottle,Fitness,347,19.99,0.0,0
+2024-02-01,P006,Water Bottle,Fitness,337,19.99,5.0,0
+2024-03-01,P006,Water Bottle,Fitness,380,19.99,0.0,0
+2024-04-01,P006,Water Bottle,Fitness,436,19.99,3.0,0
+2024-05-01,P006,Water Bottle,Fitness,509,19.99,5.0,0
+2024-06-01,P006,Water Bottle,Fitness,466,19.99,0.0,0
+2024-07-01,P006,Water Bottle,Fitness,475,19.99,0.0,0
+2024-08-01,P006,Water Bottle,Fitness,482,19.99,0.0,0
+2024-09-01,P006,Water Bottle,Fitness,425,19.99,0.0,0
+2024-10-01,P006,Water Bottle,Fitness,415,19.99,0.0,0
+2024-11-01,P006,Water Bottle,Fitness,625,19.99,3.0,0
+2024-12-01,P006,Water Bottle,Fitness,781,19.99,23.4,1
+2025-01-01,P006,Water Bottle,Fitness,447,19.99,27.9,1
+2025-02-01,P006,Water Bottle,Fitness,374,19.99,14.2,1
+2025-03-01,P006,Water Bottle,Fitness,524,19.99,21.7,1
+2025-04-01,P006,Water Bottle,Fitness,441,19.99,5.0,0
+2025-05-01,P006,Water Bottle,Fitness,435,19.99,0.0,0
+2025-06-01,P006,Water Bottle,Fitness,637,19.99,26.6,1
+2025-07-01,P006,Water Bottle,Fitness,480,19.99,0.0,0
+2025-08-01,P006,Water Bottle,Fitness,704,19.99,29.0,1
+2025-09-01,P006,Water Bottle,Fitness,606,19.99,27.4,1
+2025-10-01,P006,Water Bottle,Fitness,453,19.99,0.0,0
+2025-11-01,P006,Water Bottle,Fitness,575,19.99,0.0,0
+2025-12-01,P006,Water Bottle,Fitness,584,19.99,0.0,0
+2026-01-01,P006,Water Bottle,Fitness,359,19.99,5.0,0
+2026-02-01,P006,Water Bottle,Fitness,338,19.99,0.0,0
+2026-03-01,P006,Water Bottle,Fitness,535,19.99,28.3,1
+2026-04-01,P006,Water Bottle,Fitness,410,19.99,3.0,0
+2026-05-01,P006,Water Bottle,Fitness,520,19.99,3.0,0
+2026-06-01,P006,Water Bottle,Fitness,444,19.99,0.0,0
+2026-07-01,P006,Water Bottle,Fitness,552,19.99,3.0,0
+2026-08-01,P006,Water Bottle,Fitness,634,19.99,22.7,1
+2026-09-01,P006,Water Bottle,Fitness,433,19.99,0.0,0
+2022-01-01,P007,Backpack,Accessories,169,59.99,0.0,0
+2022-02-01,P007,Backpack,Accessories,162,59.99,0.0,0
+2022-03-01,P007,Backpack,Accessories,218,59.99,5.0,0
+2022-04-01,P007,Backpack,Accessories,250,59.99,5.0,0
+2022-05-01,P007,Backpack,Accessories,258,59.99,0.0,0
+2022-06-01,P007,Backpack,Accessories,234,59.99,3.0,0
+2022-07-01,P007,Backpack,Accessories,225,59.99,0.0,0
+2022-08-01,P007,Backpack,Accessories,285,59.99,21.9,1
+2022-09-01,P007,Backpack,Accessories,222,59.99,5.0,0
+2022-10-01,P007,Backpack,Accessories,215,59.99,0.0,0
+2022-11-01,P007,Backpack,Accessories,407,59.99,24.6,1
+2022-12-01,P007,Backpack,Accessories,331,59.99,0.0,0
+2023-01-01,P007,Backpack,Accessories,198,59.99,11.6,1
+2023-02-01,P007,Backpack,Accessories,200,59.99,3.0,0
+2023-03-01,P007,Backpack,Accessories,281,59.99,11.8,1
+2023-04-01,P007,Backpack,Accessories,326,59.99,29.0,1
+2023-05-01,P007,Backpack,Accessories,282,59.99,3.0,0
+2023-06-01,P007,Backpack,Accessories,292,59.99,5.0,0
+2023-07-01,P007,Backpack,Accessories,308,59.99,3.0,0
+2023-08-01,P007,Backpack,Accessories,251,59.99,5.0,0
+2023-09-01,P007,Backpack,Accessories,262,59.99,5.0,0
+2023-10-01,P007,Backpack,Accessories,367,59.99,21.8,1
+2023-11-01,P007,Backpack,Accessories,356,59.99,3.0,0
+2023-12-01,P007,Backpack,Accessories,450,59.99,23.9,1
+2024-01-01,P007,Backpack,Accessories,196,59.99,0.0,0
+2024-02-01,P007,Backpack,Accessories,182,59.99,3.0,0
+2024-03-01,P007,Backpack,Accessories,244,59.99,0.0,0
+2024-04-01,P007,Backpack,Accessories,297,59.99,21.9,1
+2024-05-01,P007,Backpack,Accessories,310,59.99,11.5,1
+2024-06-01,P007,Backpack,Accessories,291,59.99,5.0,0
+2024-07-01,P007,Backpack,Accessories,316,59.99,5.0,0
+2024-08-01,P007,Backpack,Accessories,380,59.99,22.5,1
+2024-09-01,P007,Backpack,Accessories,249,59.99,3.0,0
+2024-10-01,P007,Backpack,Accessories,227,59.99,0.0,0
+2024-11-01,P007,Backpack,Accessories,337,59.99,5.0,0
+2024-12-01,P007,Backpack,Accessories,405,59.99,0.0,0
+2025-01-01,P007,Backpack,Accessories,279,59.99,25.3,1
+2025-02-01,P007,Backpack,Accessories,207,59.99,0.0,0
+2025-03-01,P007,Backpack,Accessories,269,59.99,18.0,1
+2025-04-01,P007,Backpack,Accessories,282,59.99,5.0,0
+2025-05-01,P007,Backpack,Accessories,260,59.99,0.0,0
+2025-06-01,P007,Backpack,Accessories,263,59.99,0.0,0
+2025-07-01,P007,Backpack,Accessories,270,59.99,0.0,0
+2025-08-01,P007,Backpack,Accessories,245,59.99,0.0,0
+2025-09-01,P007,Backpack,Accessories,253,59.99,5.0,0
+2025-10-01,P007,Backpack,Accessories,270,59.99,5.0,0
+2025-11-01,P007,Backpack,Accessories,358,59.99,3.0,0
+2025-12-01,P007,Backpack,Accessories,345,59.99,0.0,0
+2026-01-01,P007,Backpack,Accessories,210,59.99,0.0,0
+2026-02-01,P007,Backpack,Accessories,226,59.99,3.0,0
+2026-03-01,P007,Backpack,Accessories,217,59.99,0.0,0
+2026-04-01,P007,Backpack,Accessories,238,59.99,0.0,0
+2026-05-01,P007,Backpack,Accessories,305,59.99,3.0,0
+2026-06-01,P007,Backpack,Accessories,288,59.99,0.0,0
+2026-07-01,P007,Backpack,Accessories,273,59.99,0.0,0
+2026-08-01,P007,Backpack,Accessories,404,59.99,25.2,1
+2026-09-01,P007,Backpack,Accessories,244,59.99,0.0,0
+2022-01-01,P008,Desk Lamp,Home & Office,131,34.99,0.0,0
+2022-02-01,P008,Desk Lamp,Home & Office,128,34.99,0.0,0
+2022-03-01,P008,Desk Lamp,Home & Office,177,34.99,12.6,1
+2022-04-01,P008,Desk Lamp,Home & Office,137,34.99,5.0,0
+2022-05-01,P008,Desk Lamp,Home & Office,154,34.99,0.0,0
+2022-06-01,P008,Desk Lamp,Home & Office,197,34.99,18.2,1
+2022-07-01,P008,Desk Lamp,Home & Office,158,34.99,5.0,0
+2022-08-01,P008,Desk Lamp,Home & Office,157,34.99,5.0,0
+2022-09-01,P008,Desk Lamp,Home & Office,175,34.99,5.0,0
+2022-10-01,P008,Desk Lamp,Home & Office,219,34.99,27.7,1
+2022-11-01,P008,Desk Lamp,Home & Office,186,34.99,0.0,0
+2022-12-01,P008,Desk Lamp,Home & Office,236,34.99,0.0,0
+2023-01-01,P008,Desk Lamp,Home & Office,135,34.99,0.0,0
+2023-02-01,P008,Desk Lamp,Home & Office,132,34.99,0.0,0
+2023-03-01,P008,Desk Lamp,Home & Office,132,34.99,0.0,0
+2023-04-01,P008,Desk Lamp,Home & Office,164,34.99,5.0,0
+2023-05-01,P008,Desk Lamp,Home & Office,184,34.99,5.0,0
+2023-06-01,P008,Desk Lamp,Home & Office,180,34.99,0.0,0
+2023-07-01,P008,Desk Lamp,Home & Office,222,34.99,26.4,1
+2023-08-01,P008,Desk Lamp,Home & Office,174,34.99,0.0,0
+2023-09-01,P008,Desk Lamp,Home & Office,153,34.99,5.0,0
+2023-10-01,P008,Desk Lamp,Home & Office,179,34.99,11.7,1
+2023-11-01,P008,Desk Lamp,Home & Office,206,34.99,0.0,0
+2023-12-01,P008,Desk Lamp,Home & Office,204,34.99,0.0,0
+2024-01-01,P008,Desk Lamp,Home & Office,146,34.99,10.4,1
+2024-02-01,P008,Desk Lamp,Home & Office,139,34.99,5.0,0
+2024-03-01,P008,Desk Lamp,Home & Office,167,34.99,5.0,0
+2024-04-01,P008,Desk Lamp,Home & Office,148,34.99,5.0,0
+2024-05-01,P008,Desk Lamp,Home & Office,173,34.99,0.0,0
+2024-06-01,P008,Desk Lamp,Home & Office,172,34.99,3.0,0
+2024-07-01,P008,Desk Lamp,Home & Office,191,34.99,0.0,0
+2024-08-01,P008,Desk Lamp,Home & Office,177,34.99,5.0,0
+2024-09-01,P008,Desk Lamp,Home & Office,178,34.99,5.0,0
+2024-10-01,P008,Desk Lamp,Home & Office,182,34.99,10.4,1
+2024-11-01,P008,Desk Lamp,Home & Office,194,34.99,0.0,0
+2024-12-01,P008,Desk Lamp,Home & Office,275,34.99,13.2,1
+2025-01-01,P008,Desk Lamp,Home & Office,131,34.99,0.0,0
+2025-02-01,P008,Desk Lamp,Home & Office,146,34.99,5.0,0
+2025-03-01,P008,Desk Lamp,Home & Office,184,34.99,11.6,1
+2025-04-01,P008,Desk Lamp,Home & Office,173,34.99,0.0,0
+2025-05-01,P008,Desk Lamp,Home & Office,190,34.99,5.0,0
+2025-06-01,P008,Desk Lamp,Home & Office,196,34.99,5.0,0
+2025-07-01,P008,Desk Lamp,Home & Office,179,34.99,0.0,0
+2025-08-01,P008,Desk Lamp,Home & Office,226,34.99,16.4,1
+2025-09-01,P008,Desk Lamp,Home & Office,143,34.99,0.0,0
+2025-10-01,P008,Desk Lamp,Home & Office,185,34.99,5.0,0
+2025-11-01,P008,Desk Lamp,Home & Office,236,34.99,0.0,0
+2025-12-01,P008,Desk Lamp,Home & Office,359,34.99,27.4,1
+2026-01-01,P008,Desk Lamp,Home & Office,144,34.99,3.0,0
+2026-02-01,P008,Desk Lamp,Home & Office,176,34.99,25.9,1
+2026-03-01,P008,Desk Lamp,Home & Office,159,34.99,0.0,0
+2026-04-01,P008,Desk Lamp,Home & Office,144,34.99,0.0,0
+2026-05-01,P008,Desk Lamp,Home & Office,188,34.99,3.0,0
+2026-06-01,P008,Desk Lamp,Home & Office,177,34.99,3.0,0
+2026-07-01,P008,Desk Lamp,Home & Office,200,34.99,3.0,0
+2026-08-01,P008,Desk Lamp,Home & Office,235,34.99,26.0,1
+2026-09-01,P008,Desk Lamp,Home & Office,160,34.99,5.0,0
+2022-01-01,P009,Bluetooth Speaker,Electronics,230,69.99,3.0,0
+2022-02-01,P009,Bluetooth Speaker,Electronics,252,69.99,0.0,0
+2022-03-01,P009,Bluetooth Speaker,Electronics,262,69.99,0.0,0
+2022-04-01,P009,Bluetooth Speaker,Electronics,380,69.99,14.8,1
+2022-05-01,P009,Bluetooth Speaker,Electronics,393,69.99,20.0,1
+2022-06-01,P009,Bluetooth Speaker,Electronics,330,69.99,0.0,0
+2022-07-01,P009,Bluetooth Speaker,Electronics,321,69.99,0.0,0
+2022-08-01,P009,Bluetooth Speaker,Electronics,338,69.99,17.0,1
+2022-09-01,P009,Bluetooth Speaker,Electronics,328,69.99,17.9,1
+2022-10-01,P009,Bluetooth Speaker,Electronics,327,69.99,3.0,0
+2022-11-01,P009,Bluetooth Speaker,Electronics,345,69.99,0.0,0
+2022-12-01,P009,Bluetooth Speaker,Electronics,594,69.99,22.7,1
+2023-01-01,P009,Bluetooth Speaker,Electronics,309,69.99,28.7,1
+2023-02-01,P009,Bluetooth Speaker,Electronics,261,69.99,0.0,0
+2023-03-01,P009,Bluetooth Speaker,Electronics,316,69.99,5.0,0
+2023-04-01,P009,Bluetooth Speaker,Electronics,289,69.99,0.0,0
+2023-05-01,P009,Bluetooth Speaker,Electronics,337,69.99,5.0,0
+2023-06-01,P009,Bluetooth Speaker,Electronics,287,69.99,0.0,0
+2023-07-01,P009,Bluetooth Speaker,Electronics,313,69.99,3.0,0
+2023-08-01,P009,Bluetooth Speaker,Electronics,355,69.99,14.9,1
+2023-09-01,P009,Bluetooth Speaker,Electronics,283,69.99,0.0,0
+2023-10-01,P009,Bluetooth Speaker,Electronics,310,69.99,5.0,0
+2023-11-01,P009,Bluetooth Speaker,Electronics,359,69.99,0.0,0
+2023-12-01,P009,Bluetooth Speaker,Electronics,568,69.99,23.1,1
+2024-01-01,P009,Bluetooth Speaker,Electronics,261,69.99,0.0,0
+2024-02-01,P009,Bluetooth Speaker,Electronics,230,69.99,0.0,0
+2024-03-01,P009,Bluetooth Speaker,Electronics,309,69.99,0.0,0
+2024-04-01,P009,Bluetooth Speaker,Electronics,342,69.99,5.0,0
+2024-05-01,P009,Bluetooth Speaker,Electronics,354,69.99,5.0,0
+2024-06-01,P009,Bluetooth Speaker,Electronics,392,69.99,3.0,0
+2024-07-01,P009,Bluetooth Speaker,Electronics,498,69.99,27.3,1
+2024-08-01,P009,Bluetooth Speaker,Electronics,344,69.99,5.0,0
+2024-09-01,P009,Bluetooth Speaker,Electronics,329,69.99,0.0,0
+2024-10-01,P009,Bluetooth Speaker,Electronics,331,69.99,0.0,0
+2024-11-01,P009,Bluetooth Speaker,Electronics,425,69.99,5.0,0
+2024-12-01,P009,Bluetooth Speaker,Electronics,518,69.99,5.0,0
+2025-01-01,P009,Bluetooth Speaker,Electronics,392,69.99,24.3,1
+2025-02-01,P009,Bluetooth Speaker,Electronics,267,69.99,5.0,0
+2025-03-01,P009,Bluetooth Speaker,Electronics,346,69.99,5.0,0
+2025-04-01,P009,Bluetooth Speaker,Electronics,296,69.99,3.0,0
+2025-05-01,P009,Bluetooth Speaker,Electronics,348,69.99,3.0,0
+2025-06-01,P009,Bluetooth Speaker,Electronics,315,69.99,0.0,0
+2025-07-01,P009,Bluetooth Speaker,Electronics,401,69.99,0.0,0
+2025-08-01,P009,Bluetooth Speaker,Electronics,440,69.99,23.1,1
+2025-09-01,P009,Bluetooth Speaker,Electronics,381,69.99,5.0,0
+2025-10-01,P009,Bluetooth Speaker,Electronics,368,69.99,0.0,0
+2025-11-01,P009,Bluetooth Speaker,Electronics,417,69.99,0.0,0
+2025-12-01,P009,Bluetooth Speaker,Electronics,466,69.99,0.0,0
+2026-01-01,P009,Bluetooth Speaker,Electronics,381,69.99,22.3,1
+2026-02-01,P009,Bluetooth Speaker,Electronics,277,69.99,5.0,0
+2026-03-01,P009,Bluetooth Speaker,Electronics,333,69.99,5.0,0
+2026-04-01,P009,Bluetooth Speaker,Electronics,346,69.99,5.0,0
+2026-05-01,P009,Bluetooth Speaker,Electronics,334,69.99,3.0,0
+2026-06-01,P009,Bluetooth Speaker,Electronics,398,69.99,15.4,1
+2026-07-01,P009,Bluetooth Speaker,Electronics,358,69.99,5.0,0
+2026-08-01,P009,Bluetooth Speaker,Electronics,350,69.99,0.0,0
+2026-09-01,P009,Bluetooth Speaker,Electronics,322,69.99,5.0,0
+2022-01-01,P010,Sunglasses,Accessories,327,24.99,5.0,0
+2022-02-01,P010,Sunglasses,Accessories,235,24.99,0.0,0
+2022-03-01,P010,Sunglasses,Accessories,454,24.99,29.5,1
+2022-04-01,P010,Sunglasses,Accessories,326,24.99,0.0,0
+2022-05-01,P010,Sunglasses,Accessories,338,24.99,5.0,0
+2022-06-01,P010,Sunglasses,Accessories,481,24.99,12.9,1
+2022-07-01,P010,Sunglasses,Accessories,349,24.99,0.0,0
+2022-08-01,P010,Sunglasses,Accessories,379,24.99,5.0,0
+2022-09-01,P010,Sunglasses,Accessories,329,24.99,3.0,0
+2022-10-01,P010,Sunglasses,Accessories,343,24.99,0.0,0
+2022-11-01,P010,Sunglasses,Accessories,586,24.99,14.9,1
+2022-12-01,P010,Sunglasses,Accessories,443,24.99,0.0,0
+2023-01-01,P010,Sunglasses,Accessories,329,24.99,3.0,0
+2023-02-01,P010,Sunglasses,Accessories,285,24.99,3.0,0
+2023-03-01,P010,Sunglasses,Accessories,313,24.99,0.0,0
+2023-04-01,P010,Sunglasses,Accessories,344,24.99,3.0,0
+2023-05-01,P010,Sunglasses,Accessories,396,24.99,0.0,0
+2023-06-01,P010,Sunglasses,Accessories,391,24.99,5.0,0
+2023-07-01,P010,Sunglasses,Accessories,566,24.99,23.0,1
+2023-08-01,P010,Sunglasses,Accessories,403,24.99,0.0,0
+2023-09-01,P010,Sunglasses,Accessories,336,24.99,0.0,0
+2023-10-01,P010,Sunglasses,Accessories,337,24.99,0.0,0
+2023-11-01,P010,Sunglasses,Accessories,446,24.99,0.0,0
+2023-12-01,P010,Sunglasses,Accessories,510,24.99,0.0,0
+2024-01-01,P010,Sunglasses,Accessories,327,24.99,5.0,0
+2024-02-01,P010,Sunglasses,Accessories,290,24.99,0.0,0
+2024-03-01,P010,Sunglasses,Accessories,415,24.99,21.7,1
+2024-04-01,P010,Sunglasses,Accessories,358,24.99,0.0,0
+2024-05-01,P010,Sunglasses,Accessories,423,24.99,0.0,0
+2024-06-01,P010,Sunglasses,Accessories,383,24.99,5.0,0
+2024-07-01,P010,Sunglasses,Accessories,409,24.99,5.0,0
+2024-08-01,P010,Sunglasses,Accessories,421,24.99,5.0,0
+2024-09-01,P010,Sunglasses,Accessories,407,24.99,3.0,0
+2024-10-01,P010,Sunglasses,Accessories,344,24.99,0.0,0
+2024-11-01,P010,Sunglasses,Accessories,582,24.99,10.2,1
+2024-12-01,P010,Sunglasses,Accessories,569,24.99,0.0,0
+2025-01-01,P010,Sunglasses,Accessories,378,24.99,13.9,1
+2025-02-01,P010,Sunglasses,Accessories,321,24.99,3.0,0
+2025-03-01,P010,Sunglasses,Accessories,420,24.99,15.7,1
+2025-04-01,P010,Sunglasses,Accessories,385,24.99,0.0,0
+2025-05-01,P010,Sunglasses,Accessories,532,24.99,24.4,1
+2025-06-01,P010,Sunglasses,Accessories,382,24.99,0.0,0
+2025-07-01,P010,Sunglasses,Accessories,431,24.99,5.0,0
+2025-08-01,P010,Sunglasses,Accessories,418,24.99,0.0,0
+2025-09-01,P010,Sunglasses,Accessories,406,24.99,5.0,0
+2025-10-01,P010,Sunglasses,Accessories,549,24.99,26.3,1
+2025-11-01,P010,Sunglasses,Accessories,449,24.99,0.0,0
+2025-12-01,P010,Sunglasses,Accessories,673,24.99,5.0,0
+2026-01-01,P010,Sunglasses,Accessories,409,24.99,14.2,1
+2026-02-01,P010,Sunglasses,Accessories,379,24.99,5.0,0
+2026-03-01,P010,Sunglasses,Accessories,349,24.99,0.0,0
+2026-04-01,P010,Sunglasses,Accessories,416,24.99,0.0,0
+2026-05-01,P010,Sunglasses,Accessories,448,24.99,0.0,0
+2026-06-01,P010,Sunglasses,Accessories,434,24.99,0.0,0
+2026-07-01,P010,Sunglasses,Accessories,479,24.99,0.0,0
+2026-08-01,P010,Sunglasses,Accessories,417,24.99,5.0,0
+2026-09-01,P010,Sunglasses,Accessories,553,24.99,22.8,1

@@ -1,0 +1,32 @@
+[
+  {
+    "level": 0,
+    "short": "Manual",
+    "plain": "You decide alone.",
+    "detail": "ORACLE is off for this SKU. Orders come from the planner or the fallback rule."
+  },
+  {
+    "level": 1,
+    "short": "Advisory",
+    "plain": "Suggests. You decide.",
+    "detail": "ORACLE shows its recommendation and the evidence. Nothing happens unless you place the order."
+  },
+  {
+    "level": 2,
+    "short": "Human review",
+    "plain": "Proposes. You approve.",
+    "detail": "ORACLE's order is the default. It waits for a planner to approve, modify or reject it."
+  },
+  {
+    "level": 3,
+    "short": "Limited autonomy",
+    "plain": "Acts on routine orders.",
+    "detail": "Routine orders inside the evidence band go through on their own. You are told, and can reverse within the day."
+  },
+  {
+    "level": 4,
+    "short": "Higher autonomy",
+    "plain": "Acts. You review weekly.",
+    "detail": "ORACLE places orders across the SKU and you review a weekly digest. Exceptions still wait for you."
+  }
+]

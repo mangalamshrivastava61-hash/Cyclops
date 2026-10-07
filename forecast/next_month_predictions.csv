@@ -1,0 +1,11 @@
+forecast_date,product_id,product_name,category,predicted_units_sold
+2026-10-01,P001,Wireless Earbuds,Electronics,298
+2026-10-01,P002,Phone Case,Accessories,592
+2026-10-01,P003,Laptop Stand,Electronics,168
+2026-10-01,P004,Running Shoes,Footwear,321
+2026-10-01,P005,Yoga Mat,Fitness,205
+2026-10-01,P006,Water Bottle,Fitness,403
+2026-10-01,P007,Backpack,Accessories,198
+2026-10-01,P008,Desk Lamp,Home & Office,146
+2026-10-01,P009,Bluetooth Speaker,Electronics,312
+2026-10-01,P010,Sunglasses,Accessories,650

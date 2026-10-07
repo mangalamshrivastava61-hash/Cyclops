@@ -1,0 +1,781 @@
+[
+  {
+    "id": "E-18513",
+    "decisionId": "18513",
+    "gradedAt": "2026-09-26T09:42:00",
+    "grades": [
+      {
+        "id": "forecast",
+        "index": "01",
+        "name": "Forecast",
+        "grade": "pass",
+        "finding": "79% of probe-day demand fell inside P10–P90, on 120 probe days.",
+        "method": "Probe days: small randomized availability boosts that reveal demand the shelf would otherwise cap.",
+        "window": "120 probe days · Jun 1 – Sep 25",
+        "threshold": "Pass when coverage is within 80% ± 5",
+        "records": [
+          "Probe set P-120",
+          "Forecast F-1842-0926"
+        ],
+        "measure": {
+          "kind": "coverage",
+          "value": 79,
+          "target": 80,
+          "tolerance": 5
+        }
+      },
+      {
+        "id": "observability",
+        "index": "02",
+        "name": "Observability",
+        "grade": "partial",
+        "finding": "Sold out on 3 of the last 28 days. About 11% of demand was never seen.",
+        "method": "Demand on sell-out days is censored; the hidden share is estimated from intraday sell-out times.",
+        "window": "28 days · Aug 29 – Sep 25",
+        "threshold": "Pass when hidden demand stays under 5% for 8 weeks",
+        "records": [
+          "Sales ledger · SKU 1842",
+          "Sell-out log · Store 03"
+        ],
+        "measure": {
+          "kind": "observability",
+          "days": [
+            {
+              "date": "2026-08-29",
+              "units": 15,
+              "soldOut": false
+            },
+            {
+              "date": "2026-08-30",
+              "units": 14,
+              "soldOut": false
+            },
+            {
+              "date": "2026-08-31",
+              "units": 16,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-01",
+              "units": 18,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-02",
+              "units": 19,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-03",
+              "units": 17,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-04",
+              "units": 16,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-05",
+              "units": 15,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-06",
+              "units": 15,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-07",
+              "units": 9,
+              "soldOut": true,
+              "hiddenUnits": 18
+            },
+            {
+              "date": "2026-09-08",
+              "units": 13,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-09",
+              "units": 12,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-10",
+              "units": 18,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-11",
+              "units": 16,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-12",
+              "units": 18,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-13",
+              "units": 13,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-14",
+              "units": 17,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-15",
+              "units": 6,
+              "soldOut": true,
+              "hiddenUnits": 18
+            },
+            {
+              "date": "2026-09-16",
+              "units": 18,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-17",
+              "units": 16,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-18",
+              "units": 18,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-19",
+              "units": 19,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-20",
+              "units": 19,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-21",
+              "units": 13,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-22",
+              "units": 9,
+              "soldOut": true,
+              "hiddenUnits": 18
+            },
+            {
+              "date": "2026-09-23",
+              "units": 20,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-24",
+              "units": 22,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-25",
+              "units": 18,
+              "soldOut": false
+            }
+          ],
+          "hiddenShare": 0.11
+        }
+      },
+      {
+        "id": "service",
+        "index": "03",
+        "name": "Service",
+        "grade": "pass",
+        "finding": "In stock 96.2% of the time over 28 days, against a 95% target.",
+        "method": "Share of open store-hours with at least one pair in every core size.",
+        "window": "28 days · Aug 29 – Sep 25",
+        "threshold": "Pass at 95% or above",
+        "records": [
+          "In-stock monitor · Store 03"
+        ],
+        "measure": {
+          "kind": "service",
+          "value": 96.2,
+          "target": 95
+        }
+      },
+      {
+        "id": "value",
+        "index": "04",
+        "name": "Decision value",
+        "grade": "pass",
+        "finding": "+1.8% contribution against the fixed fallback on holdouts.",
+        "method": "Randomized holdout SKU-weeks run the fallback rule; the difference in contribution is measured.",
+        "window": "8 weeks · 46 holdout SKU-weeks",
+        "threshold": "Pass when the 95% interval stays above zero",
+        "records": [
+          "Holdout H-0806",
+          "Contribution ledger"
+        ],
+        "measure": {
+          "kind": "value",
+          "point": 1.8,
+          "low": 0.4,
+          "high": 3.1
+        }
+      },
+      {
+        "id": "identification",
+        "index": "05",
+        "name": "Identification",
+        "grade": "insufficient",
+        "finding": "Past price changes moved with the season. Markdown advice stays advisory.",
+        "method": "Price effects need variation that is not driven by the season: a randomized or quasi-experimental test.",
+        "window": "18 months of price history",
+        "threshold": "Needs one quasi-experimental or randomized price test",
+        "records": [
+          "Price history · Footwear"
+        ],
+        "measure": {
+          "kind": "identification",
+          "rung": 0
+        }
+      }
+    ],
+    "authorityBefore": {
+      "level": 3,
+      "label": "L3 · Limited autonomy"
+    },
+    "authorityNow": {
+      "level": 2,
+      "label": "L2 · Human review"
+    },
+    "rule": "A partial grade on observability caps authority at L2. Every order needs a planner.",
+    "restore": {
+      "level": 3,
+      "experimentId": "E-38",
+      "summary": "Run demand probes on 2% of footwear SKU-weeks for 4 weeks",
+      "scope": "2% of footwear SKU-weeks · 9 SKUs · Store 03",
+      "weeks": 4,
+      "cost": 340,
+      "measures": "Hidden demand on sell-out days, measured instead of estimated"
+    }
+  },
+  {
+    "id": "E-18507",
+    "decisionId": "18507",
+    "gradedAt": "2026-09-25T16:20:00",
+    "grades": [
+      {
+        "id": "forecast",
+        "index": "01",
+        "name": "Forecast",
+        "grade": "pass",
+        "finding": "82% of probe-day demand fell inside P10–P90, on 64 probe days.",
+        "method": "Probe days across outerwear-adjacent footwear.",
+        "window": "64 probe days",
+        "threshold": "Pass when coverage is within 80% ± 5",
+        "records": [
+          "Probe set P-064"
+        ],
+        "measure": {
+          "kind": "coverage",
+          "value": 82,
+          "target": 80,
+          "tolerance": 5
+        }
+      },
+      {
+        "id": "observability",
+        "index": "02",
+        "name": "Observability",
+        "grade": "pass",
+        "finding": "No sell-outs in 28 days. Demand was fully observed.",
+        "method": "Sell-out log check.",
+        "window": "28 days",
+        "threshold": "Pass when hidden demand stays under 5%",
+        "records": [
+          "Sell-out log · Store 03"
+        ],
+        "measure": {
+          "kind": "observability",
+          "days": [
+            {
+              "date": "2026-08-29",
+              "units": 2,
+              "soldOut": false
+            },
+            {
+              "date": "2026-08-30",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-08-31",
+              "units": 3,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-01",
+              "units": 2,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-02",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-03",
+              "units": 3,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-04",
+              "units": 2,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-05",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-06",
+              "units": 3,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-07",
+              "units": 2,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-08",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-09",
+              "units": 3,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-10",
+              "units": 2,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-11",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-12",
+              "units": 3,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-13",
+              "units": 2,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-14",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-15",
+              "units": 3,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-16",
+              "units": 2,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-17",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-18",
+              "units": 3,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-19",
+              "units": 2,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-20",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-21",
+              "units": 3,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-22",
+              "units": 2,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-23",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-24",
+              "units": 3,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-25",
+              "units": 2,
+              "soldOut": false
+            }
+          ],
+          "hiddenShare": 0
+        }
+      },
+      {
+        "id": "service",
+        "index": "03",
+        "name": "Service",
+        "grade": "pass",
+        "finding": "In stock 99.1% of the time.",
+        "method": "Core-size availability.",
+        "window": "28 days",
+        "threshold": "Pass at 95% or above",
+        "records": [
+          "In-stock monitor"
+        ],
+        "measure": {
+          "kind": "service",
+          "value": 99.1,
+          "target": 95
+        }
+      },
+      {
+        "id": "value",
+        "index": "04",
+        "name": "Decision value",
+        "grade": "pass",
+        "finding": "+0.9% contribution against the fallback on holdouts.",
+        "method": "Holdout comparison.",
+        "window": "8 weeks",
+        "threshold": "Pass when the 95% interval stays above zero",
+        "records": [
+          "Holdout H-0806"
+        ],
+        "measure": {
+          "kind": "value",
+          "point": 0.9,
+          "low": 0.1,
+          "high": 1.7
+        }
+      },
+      {
+        "id": "identification",
+        "index": "05",
+        "name": "Identification",
+        "grade": "insufficient",
+        "finding": "Past price changes moved with the season, so the price effect is not identified.",
+        "method": "Needs price variation that is not driven by the season.",
+        "window": "18 months of price history",
+        "threshold": "Needs one quasi-experimental or randomized price test",
+        "records": [
+          "Price history · Footwear"
+        ],
+        "measure": {
+          "kind": "identification",
+          "rung": 0
+        }
+      }
+    ],
+    "authorityBefore": {
+      "level": 1,
+      "label": "L1 · Advisory"
+    },
+    "authorityNow": {
+      "level": 1,
+      "label": "L1 · Advisory"
+    },
+    "rule": "Markdowns need an identified price effect. Until then the advice is shown, never acted on.",
+    "restore": {
+      "level": 2,
+      "experimentId": "E-41",
+      "summary": "Randomize a 10% vs 20% markdown across 6 outerwear SKUs for 3 weeks",
+      "scope": "6 SKUs · Stores 03 and 07",
+      "weeks": 3,
+      "cost": 610,
+      "measures": "Price effect on sell-through, identified"
+    }
+  },
+  {
+    "id": "E-18510",
+    "decisionId": "18510",
+    "gradedAt": "2026-09-26T10:15:00",
+    "grades": [
+      {
+        "id": "forecast",
+        "index": "01",
+        "name": "Forecast",
+        "grade": "partial",
+        "finding": "A demand spike ran above P90 on 3 of the last 5 days.",
+        "method": "Probe-day coverage and recent exceedances.",
+        "window": "5 days",
+        "threshold": "Pass when coverage is within 80% ± 5",
+        "records": [
+          "Forecast F-3021-0926"
+        ],
+        "measure": {
+          "kind": "coverage",
+          "value": 68,
+          "target": 80,
+          "tolerance": 5
+        }
+      },
+      {
+        "id": "observability",
+        "index": "02",
+        "name": "Observability",
+        "grade": "partial",
+        "finding": "Sold out yesterday afternoon; demand after 15:10 was not seen.",
+        "method": "Intraday sell-out time.",
+        "window": "28 days",
+        "threshold": "Pass when hidden demand stays under 5%",
+        "records": [
+          "Sell-out log · Store 03"
+        ],
+        "measure": {
+          "kind": "observability",
+          "days": [
+            {
+              "date": "2026-08-29",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-08-30",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-08-31",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-01",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-02",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-03",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-04",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-05",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-06",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-07",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-08",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-09",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-10",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-11",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-12",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-13",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-14",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-15",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-16",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-17",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-18",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-19",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-20",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-21",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-22",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-23",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-24",
+              "units": 4,
+              "soldOut": false
+            },
+            {
+              "date": "2026-09-25",
+              "units": 4,
+              "soldOut": true,
+              "hiddenUnits": 21
+            }
+          ],
+          "hiddenShare": 0.14
+        }
+      },
+      {
+        "id": "service",
+        "index": "03",
+        "name": "Service",
+        "grade": "failed",
+        "finding": "In stock 88.9% this week, below the 90% floor. The circuit tripped.",
+        "method": "Core-size availability against the in-stock gate.",
+        "window": "7 days",
+        "threshold": "Trips below a 90% floor",
+        "records": [
+          "In-stock monitor",
+          "Circuit event #18514"
+        ],
+        "measure": {
+          "kind": "service",
+          "value": 88.9,
+          "target": 90
+        }
+      },
+      {
+        "id": "value",
+        "index": "04",
+        "name": "Decision value",
+        "grade": "pass",
+        "finding": "+0.6% contribution against the fallback before the spike.",
+        "method": "Holdout comparison.",
+        "window": "8 weeks",
+        "threshold": "Pass when the 95% interval stays above zero",
+        "records": [
+          "Holdout H-0806"
+        ],
+        "measure": {
+          "kind": "value",
+          "point": 0.6,
+          "low": 0.1,
+          "high": 1.2
+        }
+      },
+      {
+        "id": "identification",
+        "index": "05",
+        "name": "Identification",
+        "grade": "insufficient",
+        "finding": "No price tests on slides. Not needed for replenishment.",
+        "method": "Price effects need non-seasonal variation.",
+        "window": "12 months",
+        "threshold": "Needed for markdowns only",
+        "records": [
+          "Price history"
+        ],
+        "measure": {
+          "kind": "identification",
+          "rung": 0
+        }
+      }
+    ],
+    "authorityBefore": {
+      "level": 3,
+      "label": "L3 · Limited autonomy"
+    },
+    "authorityNow": {
+      "level": 1,
+      "label": "Benched · fallback rule"
+    },
+    "rule": "A failed service grade trips the circuit. The fallback rule orders until the gate clears.",
+    "restore": {
+      "level": 2,
+      "experimentId": "—",
+      "summary": "Hold in-stock above 90% for 2 weeks under the fallback",
+      "scope": "SKU 3021 · Store 03",
+      "weeks": 2,
+      "cost": 0,
+      "measures": "In-stock rate under the fallback rule"
+    }
+  }
+]

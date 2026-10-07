@@ -1,0 +1,420 @@
+[
+  {
+    "id": "18504",
+    "seq": 18504,
+    "at": "2026-09-25T09:12:00",
+    "kind": "order",
+    "sku": "3021",
+    "eyebrow": "ORDER · SKU 3021",
+    "title": "Slide Pro — order 36",
+    "meta": "Placed on its own at L3 · 4 pass",
+    "chip": {
+      "label": "ACT",
+      "kind": "act"
+    },
+    "receipt": [
+      [
+        {
+          "label": "SKU",
+          "value": "3021 · Slide Pro"
+        },
+        {
+          "label": "Action",
+          "value": "Order 36 units",
+          "emphasis": "decision"
+        },
+        {
+          "label": "Arrives",
+          "value": "Tue 29 Sep · 4-day lead"
+        },
+        {
+          "label": "Authority",
+          "value": "L3 · Limited autonomy"
+        }
+      ]
+    ],
+    "hash": "2B61…9E03",
+    "prevHash": "8C44…1D7A"
+  },
+  {
+    "id": "18505",
+    "seq": 18505,
+    "at": "2026-09-25T11:48:00",
+    "kind": "replay",
+    "sku": "1842",
+    "eyebrow": "REPLAY · R-2287",
+    "title": "Replay sealed — Tue 2 Sep 2025",
+    "meta": "Future hidden before the run · seed 0391",
+    "chip": {
+      "label": "SEALED",
+      "kind": "sealed"
+    },
+    "link": {
+      "label": "Open replay",
+      "href": "/time-machine"
+    },
+    "receipt": [
+      [
+        {
+          "label": "Replay",
+          "value": "R-2287 · Aero Runner 01"
+        },
+        {
+          "label": "Sealed at",
+          "value": "Tue 2 Sep 2025 · 23:59"
+        },
+        {
+          "label": "Data hash",
+          "value": "51B0…C7E2"
+        },
+        {
+          "label": "Leakage",
+          "value": "0 future rows read"
+        }
+      ]
+    ],
+    "hash": "71F2…A6C8",
+    "prevHash": "2B61…9E03"
+  },
+  {
+    "id": "18506",
+    "seq": 18506,
+    "at": "2026-09-25T15:05:00",
+    "kind": "authority",
+    "sku": "1842",
+    "eyebrow": "AUTHORITY · SKU 1842",
+    "title": "Aero Runner 01 — L3 → L2",
+    "meta": "Observability graded partial · every order now waits for a planner",
+    "chip": {
+      "label": "REVIEW",
+      "kind": "review"
+    },
+    "link": {
+      "label": "Why",
+      "href": "/evidence/18513"
+    },
+    "receipt": [
+      [
+        {
+          "label": "SKU",
+          "value": "1842 · Aero Runner 01"
+        },
+        {
+          "label": "Before",
+          "value": "L3 · Limited autonomy"
+        },
+        {
+          "label": "After",
+          "value": "L2 · Human review",
+          "emphasis": "decision"
+        },
+        {
+          "label": "Rule",
+          "value": "Observability partial caps at L2"
+        },
+        {
+          "label": "Hidden demand",
+          "value": "11% · needs under 5%"
+        }
+      ]
+    ],
+    "hash": "C93D…0B51",
+    "prevHash": "71F2…A6C8"
+  },
+  {
+    "id": "18507",
+    "seq": 18507,
+    "at": "2026-09-25T16:20:31",
+    "kind": "markdown",
+    "sku": "0937",
+    "decisionId": "18507",
+    "eyebrow": "MARKDOWN · SKU 0937",
+    "title": "Trail Shell — 20% markdown suggested",
+    "meta": "Price effect not identified. Shown as advice, never acted on.",
+    "chip": {
+      "label": "ADVISORY",
+      "kind": "advisory"
+    },
+    "link": {
+      "label": "Why advisory",
+      "href": "/evidence/18507"
+    },
+    "hash": "6F18…D2B5",
+    "prevHash": "C93D…0B51"
+  },
+  {
+    "id": "18508",
+    "seq": 18508,
+    "at": "2026-09-26T06:02:00",
+    "kind": "note",
+    "eyebrow": "FORECAST · SNAPSHOT S-0926-0600",
+    "title": "Forecasts issued for 214 SKUs",
+    "meta": "Data snapshot sealed before any decision reads it",
+    "receipt": [
+      [
+        {
+          "label": "Snapshot",
+          "value": "S-0926-0600"
+        },
+        {
+          "label": "Data hash",
+          "value": "7B21…0C9E"
+        },
+        {
+          "label": "SKUs",
+          "value": "214 · Store 03"
+        },
+        {
+          "label": "Horizon",
+          "value": "28 days"
+        }
+      ]
+    ],
+    "hash": "5D0C…77E1",
+    "prevHash": "6F18…D2B5"
+  },
+  {
+    "id": "18509",
+    "seq": 18509,
+    "at": "2026-09-26T09:38:40",
+    "kind": "order",
+    "sku": "2210",
+    "decisionId": "18509",
+    "eyebrow": "ORDER · SKU 2210 · #18509",
+    "title": "Court Classic — order 64",
+    "meta": "Placed on its own at L3 · 4 pass",
+    "chip": {
+      "label": "ACT",
+      "kind": "act"
+    },
+    "hash": "0E57…3A9C",
+    "prevHash": "5D0C…77E1"
+  },
+  {
+    "id": "18510",
+    "seq": 18510,
+    "at": "2026-09-26T09:39:20",
+    "kind": "order",
+    "sku": "3021",
+    "decisionId": "18510",
+    "eyebrow": "ORDER · SKU 3021 · #18510",
+    "title": "Slide Pro — order 40",
+    "meta": "Superseded at 10:15 when the circuit benched this SKU",
+    "chip": {
+      "label": "ACT",
+      "kind": "act"
+    },
+    "hash": "91D4…2E07",
+    "prevHash": "0E57…3A9C"
+  },
+  {
+    "id": "18511",
+    "seq": 18511,
+    "at": "2026-09-26T09:40:12",
+    "kind": "order",
+    "sku": "1555",
+    "decisionId": "18511",
+    "eyebrow": "ORDER · SKU 1555 · #18511",
+    "title": "Knit Runner — no order",
+    "meta": "Stock covers the protection period · 4 pass",
+    "chip": {
+      "label": "ACT",
+      "kind": "act"
+    },
+    "hash": "A07E…41C2",
+    "prevHash": "91D4…2E07"
+  },
+  {
+    "id": "18512",
+    "seq": 18512,
+    "at": "2026-09-26T09:41:00",
+    "kind": "authority",
+    "eyebrow": "AUTHORITY · WEEKLY REVIEW",
+    "title": "Footwear authority reviewed — week 39",
+    "meta": "3 SKUs keep L3 · Aero Runner 01 stays at L2",
+    "receipt": [
+      [
+        {
+          "label": "Scope",
+          "value": "Footwear · Store 03"
+        },
+        {
+          "label": "At L3",
+          "value": "2210 · 1555 · 3021"
+        },
+        {
+          "label": "At L2",
+          "value": "1842 · observability partial"
+        },
+        {
+          "label": "At L1",
+          "value": "0937 · markdowns advisory"
+        }
+      ]
+    ],
+    "hash": "3C0F…B918",
+    "prevHash": "A07E…41C2"
+  },
+  {
+    "id": "18513",
+    "seq": 18513,
+    "at": "2026-09-26T09:42:07",
+    "kind": "order",
+    "sku": "1842",
+    "decisionId": "18513",
+    "eyebrow": "ORDER · SKU 1842 · #18513",
+    "title": "Aero Runner 01 — order 127",
+    "meta": "3 pass · 1 partial · waits for your review",
+    "chip": {
+      "label": "REVIEW",
+      "kind": "review"
+    },
+    "hash": "E41A…77D2",
+    "prevHash": "3C0F…B918"
+  },
+  {
+    "id": "18514",
+    "seq": 18514,
+    "at": "2026-09-26T10:15:02",
+    "kind": "circuit",
+    "sku": "3021",
+    "eyebrow": "CIRCUIT · SKU 3021 · IN-STOCK GATE",
+    "title": "Slide Pro — in-stock floor breached",
+    "meta": "Authority Review → Bench. The fallback rule runs until the gate clears.",
+    "chip": {
+      "label": "BENCH",
+      "kind": "bench"
+    },
+    "link": {
+      "label": "Open circuit",
+      "href": "/circuit"
+    },
+    "receipt": [
+      [
+        {
+          "label": "SKU",
+          "value": "3021 · Slide Pro"
+        },
+        {
+          "label": "Gate",
+          "value": "In-stock floor · 90%"
+        },
+        {
+          "label": "Reading",
+          "value": "88.9% this week"
+        },
+        {
+          "label": "State",
+          "value": "Review → Bench",
+          "emphasis": "strong"
+        },
+        {
+          "label": "Fallback",
+          "value": "Seasonal naive · order 48"
+        },
+        {
+          "label": "False trip?",
+          "value": "No · a real demand spike"
+        }
+      ]
+    ],
+    "hash": "4B8A…C230",
+    "prevHash": "E41A…77D2"
+  },
+  {
+    "id": "18515",
+    "seq": 18515,
+    "at": "2026-09-26T11:02:00",
+    "kind": "override",
+    "sku": "2210",
+    "decisionId": "18509",
+    "eyebrow": "OVERRIDE · SKU 2210 · LOCAL EVENT",
+    "title": "Court Classic — 64 → 72",
+    "meta": "H. Haswani · scored against 64 on 8 Oct",
+    "quote": "School sports day, Sat 3 Oct.",
+    "chip": {
+      "label": "ACT · OVERRIDDEN",
+      "kind": "act"
+    },
+    "receipt": [
+      [
+        {
+          "label": "SKU",
+          "value": "2210 · Court Classic"
+        },
+        {
+          "label": "ORACLE",
+          "value": "Order 64"
+        },
+        {
+          "label": "Planner",
+          "value": "Order 72",
+          "emphasis": "decision"
+        },
+        {
+          "label": "Reason",
+          "value": "LOCAL_EVENT"
+        },
+        {
+          "label": "Note",
+          "value": "School sports day, Sat 3 Oct."
+        },
+        {
+          "label": "Scored",
+          "value": "Thu 8 Oct, against 64"
+        }
+      ]
+    ],
+    "hash": "F20D…6B1E",
+    "prevHash": "4B8A…C230"
+  },
+  {
+    "id": "18516",
+    "seq": 18516,
+    "at": "2026-09-26T13:30:00",
+    "kind": "replay",
+    "sku": "1842",
+    "eyebrow": "REPLAY · R-2291",
+    "title": "Replay sealed — Tue 14 Oct 2025",
+    "meta": "Future hidden before the run · hash 9F3C…A41E",
+    "chip": {
+      "label": "SEALED",
+      "kind": "sealed"
+    },
+    "link": {
+      "label": "Open replay",
+      "href": "/time-machine"
+    },
+    "receipt": [
+      [
+        {
+          "label": "Replay",
+          "value": "R-2291 · Aero Runner 01"
+        },
+        {
+          "label": "Sealed at",
+          "value": "Tue 14 Oct 2025 · 23:59"
+        },
+        {
+          "label": "Data hash",
+          "value": "9F3C…A41E"
+        },
+        {
+          "label": "Seed",
+          "value": "0417 · reproducible"
+        },
+        {
+          "label": "Leakage",
+          "value": "0 future rows read"
+        },
+        {
+          "label": "Decision",
+          "value": "Order 118 · fallback 90",
+          "emphasis": "decision"
+        }
+      ]
+    ],
+    "hash": "9F3C…5D07",
+    "prevHash": "F20D…6B1E"
+  }
+]

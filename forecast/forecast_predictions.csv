@@ -1,0 +1,61 @@
+forecast_date,product_id,product_name,category,predicted_units_sold
+2026-10-01,P001,Wireless Earbuds,Electronics,298
+2026-11-01,P001,Wireless Earbuds,Electronics,360
+2026-12-01,P001,Wireless Earbuds,Electronics,484
+2027-01-01,P001,Wireless Earbuds,Electronics,513
+2027-02-01,P001,Wireless Earbuds,Electronics,438
+2027-03-01,P001,Wireless Earbuds,Electronics,362
+2026-10-01,P002,Phone Case,Accessories,592
+2026-11-01,P002,Phone Case,Accessories,693
+2026-12-01,P002,Phone Case,Accessories,821
+2027-01-01,P002,Phone Case,Accessories,634
+2027-02-01,P002,Phone Case,Accessories,477
+2027-03-01,P002,Phone Case,Accessories,556
+2026-10-01,P003,Laptop Stand,Electronics,168
+2026-11-01,P003,Laptop Stand,Electronics,190
+2026-12-01,P003,Laptop Stand,Electronics,216
+2027-01-01,P003,Laptop Stand,Electronics,220
+2027-02-01,P003,Laptop Stand,Electronics,190
+2027-03-01,P003,Laptop Stand,Electronics,167
+2026-10-01,P004,Running Shoes,Footwear,321
+2026-11-01,P004,Running Shoes,Footwear,366
+2026-12-01,P004,Running Shoes,Footwear,426
+2027-01-01,P004,Running Shoes,Footwear,437
+2027-02-01,P004,Running Shoes,Footwear,395
+2027-03-01,P004,Running Shoes,Footwear,336
+2026-10-01,P005,Yoga Mat,Fitness,205
+2026-11-01,P005,Yoga Mat,Fitness,221
+2026-12-01,P005,Yoga Mat,Fitness,246
+2027-01-01,P005,Yoga Mat,Fitness,229
+2027-02-01,P005,Yoga Mat,Fitness,188
+2027-03-01,P005,Yoga Mat,Fitness,172
+2026-10-01,P006,Water Bottle,Fitness,403
+2026-11-01,P006,Water Bottle,Fitness,469
+2026-12-01,P006,Water Bottle,Fitness,557
+2027-01-01,P006,Water Bottle,Fitness,573
+2027-02-01,P006,Water Bottle,Fitness,456
+2027-03-01,P006,Water Bottle,Fitness,380
+2026-10-01,P007,Backpack,Accessories,198
+2026-11-01,P007,Backpack,Accessories,201
+2026-12-01,P007,Backpack,Accessories,234
+2027-01-01,P007,Backpack,Accessories,259
+2027-02-01,P007,Backpack,Accessories,272
+2027-03-01,P007,Backpack,Accessories,263
+2026-10-01,P008,Desk Lamp,Home & Office,146
+2026-11-01,P008,Desk Lamp,Home & Office,159
+2026-12-01,P008,Desk Lamp,Home & Office,184
+2027-01-01,P008,Desk Lamp,Home & Office,199
+2027-02-01,P008,Desk Lamp,Home & Office,188
+2027-03-01,P008,Desk Lamp,Home & Office,167
+2026-10-01,P009,Bluetooth Speaker,Electronics,312
+2026-11-01,P009,Bluetooth Speaker,Electronics,384
+2026-12-01,P009,Bluetooth Speaker,Electronics,493
+2027-01-01,P009,Bluetooth Speaker,Electronics,499
+2027-02-01,P009,Bluetooth Speaker,Electronics,423
+2027-03-01,P009,Bluetooth Speaker,Electronics,352
+2026-10-01,P010,Sunglasses,Accessories,650
+2026-11-01,P010,Sunglasses,Accessories,653
+2026-12-01,P010,Sunglasses,Accessories,629
+2027-01-01,P010,Sunglasses,Accessories,506
+2027-02-01,P010,Sunglasses,Accessories,412
+2027-03-01,P010,Sunglasses,Accessories,390

@@ -1,0 +1,23 @@
+import type { Product } from "@/types";
+
+/** Synthetic Store 03 · Footwear. Every figure in ORACLE is simulated. */
+export const products: Product[] = [
+  { sku: "1842", name: "Aero Runner 01", colorway: "Ivory / Ink", category: "Footwear", store: "Store 03", price: 140, unitCost: 84, casePack: 6, leadTimeDays: 5, reviewCycleDays: 7, authorityChip: "review" },
+  { sku: "2210", name: "Court Classic", colorway: "Chalk / Black", category: "Footwear", store: "Store 03", price: 120, unitCost: 70, casePack: 6, leadTimeDays: 5, reviewCycleDays: 7, authorityChip: "act" },
+  { sku: "0937", name: "Trail Shell", colorway: "Stone / Ink", category: "Footwear", store: "Store 03", price: 160, unitCost: 92, casePack: 4, leadTimeDays: 7, reviewCycleDays: 7, authorityChip: "advisory" },
+  { sku: "1555", name: "Knit Runner", colorway: "Bone", category: "Footwear", store: "Store 03", price: 110, unitCost: 62, casePack: 6, leadTimeDays: 5, reviewCycleDays: 7, authorityChip: "act" },
+  { sku: "3021", name: "Slide Pro", colorway: "Black", category: "Footwear", store: "Store 03", price: 45, unitCost: 18, casePack: 12, leadTimeDays: 4, reviewCycleDays: 7, authorityChip: "bench" },
+];
+
+/** The synthetic world's "today". */
+export const WORLD = {
+  today: "2026-09-26",
+  todayLabel: "Sat 26 Sep",
+  yesterday: "2026-09-25",
+  yesterdayLabel: "Fri 25 Sep",
+  week: 39,
+  store: "Store 03",
+  category: "Footwear",
+  planner: "H. Haswani",
+  plannerInitials: "HH",
+} as const;
